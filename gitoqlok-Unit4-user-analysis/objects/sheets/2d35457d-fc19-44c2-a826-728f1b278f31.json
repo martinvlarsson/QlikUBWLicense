@@ -1,0 +1,5241 @@
+{
+  "qProperty": {
+    "qInfo": {
+      "qId": "2d35457d-fc19-44c2-a826-728f1b278f31",
+      "qType": "sheet"
+    },
+    "qMetaDef": {
+      "title": "details",
+      "description": ""
+    },
+    "rank": 1,
+    "thumbnail": {
+      "qStaticContentUrlDef": {}
+    },
+    "columns": 24,
+    "rows": 12,
+    "cells": [
+      {
+        "name": "HuPSWK",
+        "type": "auto-chart",
+        "col": 0,
+        "row": 0,
+        "colspan": 5,
+        "rowspan": 3,
+        "bounds": {
+          "y": 0,
+          "x": 0,
+          "width": 20.833333333333336,
+          "height": 25
+        }
+      },
+      {
+        "name": "xKPFp",
+        "type": "auto-chart",
+        "col": 12,
+        "row": 6,
+        "colspan": 12,
+        "rowspan": 6,
+        "bounds": {
+          "y": 50,
+          "x": 50,
+          "width": 50,
+          "height": 50
+        }
+      },
+      {
+        "name": "sKVdRVp",
+        "type": "auto-chart",
+        "col": 0,
+        "row": 6,
+        "colspan": 12,
+        "rowspan": 6,
+        "bounds": {
+          "y": 50,
+          "x": 0,
+          "width": 50,
+          "height": 50
+        }
+      },
+      {
+        "name": "jwqtDbd",
+        "type": "auto-chart",
+        "col": 8,
+        "row": 0,
+        "colspan": 16,
+        "rowspan": 6,
+        "bounds": {
+          "y": 0,
+          "x": 33.33333333333333,
+          "width": 66.66666666666666,
+          "height": 50
+        }
+      },
+      {
+        "name": "tJAp",
+        "type": "auto-chart",
+        "col": 0,
+        "row": 4,
+        "colspan": 5,
+        "rowspan": 2,
+        "bounds": {
+          "y": 33.33333333333333,
+          "x": 0,
+          "width": 20.833333333333336,
+          "height": 16.666666666666664
+        }
+      },
+      {
+        "name": "JrjPU",
+        "type": "auto-chart",
+        "col": 0,
+        "row": 3,
+        "colspan": 5,
+        "rowspan": 1,
+        "bounds": {
+          "y": 25,
+          "x": 0,
+          "width": 20.833333333333336,
+          "height": 8.333333333333332
+        }
+      },
+      {
+        "name": "Kppgpem",
+        "type": "auto-chart",
+        "col": 5,
+        "row": 0,
+        "colspan": 3,
+        "rowspan": 6,
+        "bounds": {
+          "y": 0,
+          "x": 20.833333333333336,
+          "width": 12.5,
+          "height": 50
+        }
+      }
+    ],
+    "qChildListDef": {
+      "qData": {
+        "title": "/title"
+      }
+    },
+    "gridResolution": "small",
+    "layoutOptions": {
+      "mobileLayout": "LIST"
+    }
+  },
+  "qChildren": [
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "jwqtDbd",
+          "qType": "auto-chart"
+        },
+        "qMetaDef": {},
+        "qHyperCubeDef": {
+          "qDimensions": [
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "menu_id"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "pZqj",
+                "othersLabel": "Övriga"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Övriga"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "PathName"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "kFs",
+                "othersLabel": "Övriga"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Övriga"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "licence_ref"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "zPgkR",
+                "othersLabel": "Övriga"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Övriga"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "Depth"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "EPQyL",
+                "othersLabel": "Övriga"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Övriga"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "tree_type"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "FtgGTY",
+                "othersLabel": "Övriga"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Övriga"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "func_name"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "byqMGr",
+                "othersLabel": "Övriga"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Övriga"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "user_permissions"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "PKbTg",
+                "othersLabel": "Övriga"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Övriga"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            }
+          ],
+          "qMeasures": [],
+          "qInterColumnSortOrder": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "qSuppressMissing": true,
+          "qInitialDataFetch": [],
+          "qReductionMode": "N",
+          "qMode": "S",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": [],
+          "qDynamicScript": [],
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": [],
+              "qDynamicScript": []
+            }
+          }
+        },
+        "showTitles": true,
+        "title": "menu",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "visualization": "auto-chart",
+        "qUndoExclude": {
+          "hashCode": -1744413690,
+          "generated": {
+            "qHyperCubeDef": {
+              "qDimensions": [
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "menu_id"
+                    ],
+                    "qFieldLabels": [
+                      ""
+                    ],
+                    "qSortCriterias": [
+                      {
+                        "qSortByNumeric": 1,
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "pmqQn",
+                    "othersLabel": "Övriga",
+                    "textAlign": {
+                      "auto": true,
+                      "align": "left"
+                    },
+                    "representation": {
+                      "type": "text",
+                      "urlPosition": "dimension",
+                      "urlLabel": "",
+                      "linkUrl": "",
+                      "imageSetting": "label",
+                      "imageLabel": "",
+                      "imageUrl": ""
+                    }
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GE_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {
+                    "qv": "Övriga"
+                  },
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "othersLabel": "Övriga"
+                },
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "PathName"
+                    ],
+                    "qFieldLabels": [
+                      ""
+                    ],
+                    "qSortCriterias": [
+                      {
+                        "qSortByNumeric": 1,
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "NkzpB",
+                    "othersLabel": "Övriga",
+                    "textAlign": {
+                      "auto": true,
+                      "align": "left"
+                    },
+                    "representation": {
+                      "type": "text",
+                      "urlPosition": "dimension",
+                      "urlLabel": "",
+                      "linkUrl": "",
+                      "imageSetting": "label",
+                      "imageLabel": "",
+                      "imageUrl": ""
+                    }
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GE_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {
+                    "qv": "Övriga"
+                  },
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "othersLabel": "Övriga"
+                },
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "licence_ref"
+                    ],
+                    "qFieldLabels": [
+                      ""
+                    ],
+                    "qSortCriterias": [
+                      {
+                        "qSortByNumeric": 1,
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "VJbGGK",
+                    "othersLabel": "Övriga",
+                    "textAlign": {
+                      "auto": true,
+                      "align": "left"
+                    },
+                    "representation": {
+                      "type": "text",
+                      "urlPosition": "dimension",
+                      "urlLabel": "",
+                      "linkUrl": "",
+                      "imageSetting": "label",
+                      "imageLabel": "",
+                      "imageUrl": ""
+                    }
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GE_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {
+                    "qv": "Övriga"
+                  },
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "othersLabel": "Övriga"
+                },
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "Depth"
+                    ],
+                    "qFieldLabels": [
+                      ""
+                    ],
+                    "qSortCriterias": [
+                      {
+                        "qSortByNumeric": 1,
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "yCmjJ",
+                    "othersLabel": "Övriga",
+                    "textAlign": {
+                      "auto": true,
+                      "align": "left"
+                    },
+                    "representation": {
+                      "type": "text",
+                      "urlPosition": "dimension",
+                      "urlLabel": "",
+                      "linkUrl": "",
+                      "imageSetting": "label",
+                      "imageLabel": "",
+                      "imageUrl": ""
+                    }
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GE_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {
+                    "qv": "Övriga"
+                  },
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "othersLabel": "Övriga"
+                },
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "tree_type"
+                    ],
+                    "qFieldLabels": [
+                      ""
+                    ],
+                    "qSortCriterias": [
+                      {
+                        "qSortByNumeric": 1,
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "JJFFPN",
+                    "othersLabel": "Övriga",
+                    "textAlign": {
+                      "auto": true,
+                      "align": "left"
+                    },
+                    "representation": {
+                      "type": "text",
+                      "urlPosition": "dimension",
+                      "urlLabel": "",
+                      "linkUrl": "",
+                      "imageSetting": "label",
+                      "imageLabel": "",
+                      "imageUrl": ""
+                    }
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GE_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {
+                    "qv": "Övriga"
+                  },
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "othersLabel": "Övriga"
+                },
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "func_name"
+                    ],
+                    "qFieldLabels": [
+                      ""
+                    ],
+                    "qSortCriterias": [
+                      {
+                        "qSortByNumeric": 1,
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "wqdQyH",
+                    "othersLabel": "Övriga",
+                    "textAlign": {
+                      "auto": true,
+                      "align": "left"
+                    },
+                    "representation": {
+                      "type": "text",
+                      "urlPosition": "dimension",
+                      "urlLabel": "",
+                      "linkUrl": "",
+                      "imageSetting": "label",
+                      "imageLabel": "",
+                      "imageUrl": ""
+                    }
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GE_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {
+                    "qv": "Övriga"
+                  },
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "othersLabel": "Övriga"
+                },
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "user_permissions"
+                    ],
+                    "qFieldLabels": [
+                      ""
+                    ],
+                    "qSortCriterias": [
+                      {
+                        "qSortByNumeric": 1,
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "rAUxTxM",
+                    "othersLabel": "Övriga",
+                    "textAlign": {
+                      "auto": true,
+                      "align": "left"
+                    },
+                    "representation": {
+                      "type": "text",
+                      "urlPosition": "dimension",
+                      "urlLabel": "",
+                      "linkUrl": "",
+                      "imageSetting": "label",
+                      "imageLabel": "",
+                      "imageUrl": ""
+                    }
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GE_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {
+                    "qv": "Övriga"
+                  },
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "othersLabel": "Övriga"
+                }
+              ],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "qSuppressMissing": true,
+              "qInitialDataFetch": [
+                {
+                  "qLeft": 0,
+                  "qTop": 0,
+                  "qWidth": 0,
+                  "qHeight": 0
+                }
+              ],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "qExpansionState": [],
+              "qDynamicScript": [],
+              "columnOrder": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "columnWidths": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            },
+            "search": {
+              "sorting": "auto"
+            },
+            "showTitles": true,
+            "title": "menu",
+            "subtitle": "",
+            "footnote": "",
+            "disableNavMenu": false,
+            "showDetails": false,
+            "qStateName": "",
+            "components": [],
+            "totals": {
+              "show": true,
+              "position": "noTotals",
+              "label": "Totalvärden"
+            },
+            "scrolling": {
+              "horizontal": true,
+              "keepFirstColumnInView": false,
+              "keepFirstColumnInViewTouch": false
+            },
+            "multiline": {
+              "wrapTextInHeaders": true,
+              "wrapTextInCells": true
+            },
+            "qInfo": {
+              "qType": "table"
+            },
+            "visualization": "table",
+            "isRecommended": true,
+            "qLayoutExclude": {
+              "disabled": {},
+              "quarantine": {
+                "conditionalShowHide": {
+                  "dimensions": {}
+                }
+              }
+            },
+            "recommendation": {
+              "analysis": {
+                "analysis": "list",
+                "dims": [
+                  {
+                    "field": "menu_id",
+                    "expr": "menu_id",
+                    "cType": "eField"
+                  },
+                  {
+                    "field": "PathName",
+                    "expr": "PathName",
+                    "cType": "eField"
+                  },
+                  {
+                    "field": "licence_ref",
+                    "expr": "licence_ref",
+                    "cType": "eField"
+                  },
+                  {
+                    "field": "Depth",
+                    "expr": "Depth",
+                    "cType": "eField"
+                  },
+                  {
+                    "field": "tree_type",
+                    "expr": "tree_type",
+                    "cType": "eField"
+                  },
+                  {
+                    "field": "func_name",
+                    "expr": "func_name",
+                    "cType": "eField"
+                  },
+                  {
+                    "field": "user_permissions",
+                    "expr": "user_permissions",
+                    "cType": "eField"
+                  }
+                ],
+                "msrs": []
+              }
+            }
+          }
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "xKPFp",
+          "qType": "auto-chart"
+        },
+        "qMetaDef": {},
+        "qHyperCubeDef": {
+          "qDimensions": [
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "role_id-user_role_id"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "MazCN",
+                "othersLabel": "Övriga"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Övriga"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "aagrole.status"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "aEJK",
+                "othersLabel": "Övriga"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Övriga"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "[role.description]"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "LxHNL",
+                "othersLabel": "Övriga"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Övriga"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            }
+          ],
+          "qMeasures": [],
+          "qInterColumnSortOrder": [
+            0,
+            1,
+            2
+          ],
+          "qSuppressMissing": true,
+          "qInitialDataFetch": [],
+          "qReductionMode": "N",
+          "qMode": "S",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": [],
+          "qDynamicScript": [],
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": [],
+              "qDynamicScript": []
+            }
+          }
+        },
+        "showTitles": true,
+        "title": "role",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "visualization": "auto-chart",
+        "qUndoExclude": {
+          "hashCode": 997103333,
+          "generated": {
+            "qHyperCubeDef": {
+              "qDimensions": [
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "role_id-user_role_id"
+                    ],
+                    "qFieldLabels": [
+                      ""
+                    ],
+                    "qSortCriterias": [
+                      {
+                        "qSortByNumeric": 1,
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "HQMexB",
+                    "othersLabel": "Övriga",
+                    "textAlign": {
+                      "auto": true,
+                      "align": "left"
+                    },
+                    "representation": {
+                      "type": "text",
+                      "urlPosition": "dimension",
+                      "urlLabel": "",
+                      "linkUrl": "",
+                      "imageSetting": "label",
+                      "imageLabel": "",
+                      "imageUrl": ""
+                    }
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GE_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {
+                    "qv": "Övriga"
+                  },
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "othersLabel": "Övriga"
+                },
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "aagrole.status"
+                    ],
+                    "qFieldLabels": [
+                      ""
+                    ],
+                    "qSortCriterias": [
+                      {
+                        "qSortByNumeric": 1,
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "FQmdG",
+                    "othersLabel": "Övriga",
+                    "textAlign": {
+                      "auto": true,
+                      "align": "left"
+                    },
+                    "representation": {
+                      "type": "text",
+                      "urlPosition": "dimension",
+                      "urlLabel": "",
+                      "linkUrl": "",
+                      "imageSetting": "label",
+                      "imageLabel": "",
+                      "imageUrl": ""
+                    }
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GE_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {
+                    "qv": "Övriga"
+                  },
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "othersLabel": "Övriga"
+                },
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "[role.description]"
+                    ],
+                    "qFieldLabels": [
+                      ""
+                    ],
+                    "qSortCriterias": [
+                      {
+                        "qSortByNumeric": 1,
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "cLnmnxz",
+                    "othersLabel": "Övriga",
+                    "textAlign": {
+                      "auto": true,
+                      "align": "left"
+                    },
+                    "representation": {
+                      "type": "text",
+                      "urlPosition": "dimension",
+                      "urlLabel": "",
+                      "linkUrl": "",
+                      "imageSetting": "label",
+                      "imageLabel": "",
+                      "imageUrl": ""
+                    }
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GE_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {
+                    "qv": "Övriga"
+                  },
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "othersLabel": "Övriga"
+                }
+              ],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [
+                0,
+                1,
+                2
+              ],
+              "qSuppressMissing": true,
+              "qInitialDataFetch": [
+                {
+                  "qLeft": 0,
+                  "qTop": 0,
+                  "qWidth": 0,
+                  "qHeight": 0
+                }
+              ],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [
+                0,
+                1,
+                2
+              ],
+              "qExpansionState": [],
+              "qDynamicScript": [],
+              "columnOrder": [
+                0,
+                1,
+                2
+              ],
+              "columnWidths": [
+                -1,
+                -1,
+                -1
+              ]
+            },
+            "search": {
+              "sorting": "auto"
+            },
+            "showTitles": true,
+            "title": "role",
+            "subtitle": "",
+            "footnote": "",
+            "disableNavMenu": false,
+            "showDetails": false,
+            "qStateName": "",
+            "components": [],
+            "totals": {
+              "show": true,
+              "position": "noTotals",
+              "label": "Totalvärden"
+            },
+            "scrolling": {
+              "horizontal": true,
+              "keepFirstColumnInView": false,
+              "keepFirstColumnInViewTouch": false
+            },
+            "multiline": {
+              "wrapTextInHeaders": true,
+              "wrapTextInCells": true
+            },
+            "qInfo": {
+              "qType": "table"
+            },
+            "visualization": "table",
+            "isRecommended": true,
+            "qLayoutExclude": {
+              "disabled": {},
+              "quarantine": {
+                "conditionalShowHide": {
+                  "dimensions": {}
+                }
+              }
+            },
+            "recommendation": {
+              "analysis": {
+                "analysis": "list",
+                "dims": [
+                  {
+                    "field": "role_id-user_role_id",
+                    "expr": "role_id-user_role_id",
+                    "cType": "eField"
+                  },
+                  {
+                    "field": "aagrole.status",
+                    "expr": "aagrole.status",
+                    "cType": "eField"
+                  },
+                  {
+                    "field": "role.description",
+                    "expr": "[role.description]",
+                    "cType": "eField"
+                  }
+                ],
+                "msrs": []
+              }
+            }
+          }
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "HuPSWK",
+          "qType": "auto-chart"
+        },
+        "qMetaDef": {},
+        "qHyperCubeDef": {
+          "qDimensions": [
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "user_id"
+                ],
+                "qFieldLabels": [],
+                "qSortCriterias": [
+                  {
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {},
+                "qOtherLimit": {},
+                "qOtherLimitMode": "OTHER_GT_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {},
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "user_name"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "rcePEeP",
+                "othersLabel": "Övriga"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Övriga"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "aaguser.status"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "JaUPBZ",
+                "othersLabel": "Övriga"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Övriga"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "aaguser.date_to"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "uYBumme",
+                "othersLabel": "Övriga"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Övriga"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "aaguser.date_from"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "fqJqm",
+                "othersLabel": "Övriga"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Övriga"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "=12*Year(Today())+Month(Today())-12*Year(aagrole.date_to)-Month(aagrole.date_to)"
+                ],
+                "qFieldLabels": [
+                  "Agresso/system/aagrole.date_to.MonthsAgo"
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "PPmqm",
+                "othersLabel": "Övriga"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Övriga"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "=12*Year(Today())+Month(Today())-12*Year(aaguser.date_from)-Month(aaguser.date_from)"
+                ],
+                "qFieldLabels": [
+                  "Agresso/system/aaguser.date_from.MonthsAgo"
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "XtZzbS",
+                "othersLabel": "Övriga"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Övriga"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            }
+          ],
+          "qMeasures": [],
+          "qInterColumnSortOrder": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "qSuppressMissing": true,
+          "qInitialDataFetch": [],
+          "qReductionMode": "N",
+          "qMode": "S",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": [],
+          "qDynamicScript": [],
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": [],
+              "qDynamicScript": []
+            }
+          }
+        },
+        "showTitles": true,
+        "title": "user",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "visualization": "auto-chart",
+        "qUndoExclude": {
+          "hashCode": 1121352415,
+          "generated": {
+            "qHyperCubeDef": {
+              "qDimensions": [
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "user_id"
+                    ],
+                    "qFieldLabels": [],
+                    "qSortCriterias": [
+                      {
+                        "qSortByNumeric": 1,
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "cMPVwf",
+                    "othersLabel": "Övriga",
+                    "textAlign": {
+                      "auto": true,
+                      "align": "left"
+                    },
+                    "representation": {
+                      "type": "text",
+                      "urlPosition": "dimension",
+                      "urlLabel": "",
+                      "linkUrl": "",
+                      "imageSetting": "label",
+                      "imageLabel": "",
+                      "imageUrl": ""
+                    }
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GT_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {},
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "othersLabel": "Övriga"
+                },
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "user_name"
+                    ],
+                    "qFieldLabels": [
+                      ""
+                    ],
+                    "qSortCriterias": [
+                      {
+                        "qSortByNumeric": 1,
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "LkXssg",
+                    "othersLabel": "Övriga",
+                    "textAlign": {
+                      "auto": true,
+                      "align": "left"
+                    },
+                    "representation": {
+                      "type": "text",
+                      "urlPosition": "dimension",
+                      "urlLabel": "",
+                      "linkUrl": "",
+                      "imageSetting": "label",
+                      "imageLabel": "",
+                      "imageUrl": ""
+                    }
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GE_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {
+                    "qv": "Övriga"
+                  },
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "othersLabel": "Övriga"
+                },
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "aaguser.status"
+                    ],
+                    "qFieldLabels": [
+                      ""
+                    ],
+                    "qSortCriterias": [
+                      {
+                        "qSortByNumeric": 1,
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "jYEgcA",
+                    "othersLabel": "Övriga",
+                    "textAlign": {
+                      "auto": true,
+                      "align": "left"
+                    },
+                    "representation": {
+                      "type": "text",
+                      "urlPosition": "dimension",
+                      "urlLabel": "",
+                      "linkUrl": "",
+                      "imageSetting": "label",
+                      "imageLabel": "",
+                      "imageUrl": ""
+                    }
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GE_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {
+                    "qv": "Övriga"
+                  },
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "othersLabel": "Övriga"
+                },
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "aaguser.date_to"
+                    ],
+                    "qFieldLabels": [
+                      ""
+                    ],
+                    "qSortCriterias": [
+                      {
+                        "qSortByNumeric": 1,
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "PWhzFP",
+                    "othersLabel": "Övriga",
+                    "textAlign": {
+                      "auto": true,
+                      "align": "left"
+                    },
+                    "representation": {
+                      "type": "text",
+                      "urlPosition": "dimension",
+                      "urlLabel": "",
+                      "linkUrl": "",
+                      "imageSetting": "label",
+                      "imageLabel": "",
+                      "imageUrl": ""
+                    }
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GE_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {
+                    "qv": "Övriga"
+                  },
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "othersLabel": "Övriga"
+                },
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "aaguser.date_from"
+                    ],
+                    "qFieldLabels": [
+                      ""
+                    ],
+                    "qSortCriterias": [
+                      {
+                        "qSortByNumeric": 1,
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "CfhTJL",
+                    "othersLabel": "Övriga",
+                    "textAlign": {
+                      "auto": true,
+                      "align": "left"
+                    },
+                    "representation": {
+                      "type": "text",
+                      "urlPosition": "dimension",
+                      "urlLabel": "",
+                      "linkUrl": "",
+                      "imageSetting": "label",
+                      "imageLabel": "",
+                      "imageUrl": ""
+                    }
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GE_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {
+                    "qv": "Övriga"
+                  },
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "othersLabel": "Övriga"
+                },
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "=12*Year(Today())+Month(Today())-12*Year(aagrole.date_to)-Month(aagrole.date_to)"
+                    ],
+                    "qFieldLabels": [
+                      "Agresso/system/aagrole.date_to.MonthsAgo"
+                    ],
+                    "qSortCriterias": [
+                      {
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "nKZFgU",
+                    "othersLabel": "Övriga",
+                    "textAlign": {
+                      "auto": true,
+                      "align": "left"
+                    },
+                    "representation": {
+                      "type": "text",
+                      "urlPosition": "dimension",
+                      "urlLabel": "",
+                      "linkUrl": "",
+                      "imageSetting": "label",
+                      "imageLabel": "",
+                      "imageUrl": ""
+                    }
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GE_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {
+                    "qv": "Övriga"
+                  },
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "othersLabel": "Övriga"
+                },
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "=12*Year(Today())+Month(Today())-12*Year(aaguser.date_from)-Month(aaguser.date_from)"
+                    ],
+                    "qFieldLabels": [
+                      "Agresso/system/aaguser.date_from.MonthsAgo"
+                    ],
+                    "qSortCriterias": [
+                      {
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "PQZb",
+                    "othersLabel": "Övriga",
+                    "textAlign": {
+                      "auto": true,
+                      "align": "left"
+                    },
+                    "representation": {
+                      "type": "text",
+                      "urlPosition": "dimension",
+                      "urlLabel": "",
+                      "linkUrl": "",
+                      "imageSetting": "label",
+                      "imageLabel": "",
+                      "imageUrl": ""
+                    }
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GE_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {
+                    "qv": "Övriga"
+                  },
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "othersLabel": "Övriga"
+                }
+              ],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "qSuppressMissing": true,
+              "qInitialDataFetch": [
+                {
+                  "qLeft": 0,
+                  "qTop": 0,
+                  "qWidth": 0,
+                  "qHeight": 0
+                }
+              ],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "qExpansionState": [],
+              "qDynamicScript": [],
+              "columnOrder": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "columnWidths": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            },
+            "search": {
+              "sorting": "auto"
+            },
+            "showTitles": true,
+            "title": "user",
+            "subtitle": "",
+            "footnote": "",
+            "disableNavMenu": false,
+            "showDetails": false,
+            "qStateName": "",
+            "components": [],
+            "totals": {
+              "show": true,
+              "position": "noTotals",
+              "label": "Totalvärden"
+            },
+            "scrolling": {
+              "horizontal": true,
+              "keepFirstColumnInView": false,
+              "keepFirstColumnInViewTouch": false
+            },
+            "multiline": {
+              "wrapTextInHeaders": true,
+              "wrapTextInCells": true
+            },
+            "qInfo": {
+              "qType": "table"
+            },
+            "visualization": "table",
+            "isRecommended": true,
+            "qLayoutExclude": {
+              "disabled": {},
+              "quarantine": {
+                "conditionalShowHide": {
+                  "dimensions": {}
+                }
+              }
+            },
+            "recommendation": {
+              "analysis": {
+                "analysis": "list",
+                "dims": [
+                  {
+                    "field": "user_id",
+                    "expr": "user_id",
+                    "cType": "eField"
+                  },
+                  {
+                    "field": "user_name",
+                    "expr": "user_name",
+                    "cType": "eField"
+                  },
+                  {
+                    "field": "Agresso/system/aaguser.status",
+                    "expr": "Agresso/system/aaguser.status",
+                    "cType": "eField"
+                  },
+                  {
+                    "field": "Agresso/system/aaguser.date_to",
+                    "expr": "Agresso/system/aaguser.date_to",
+                    "cType": "eField"
+                  },
+                  {
+                    "field": "Agresso/system/aaguser.date_from",
+                    "expr": "Agresso/system/aaguser.date_from",
+                    "cType": "eField"
+                  },
+                  {
+                    "expr": "=12*Year(Today())+Month(Today())-12*Year([Agresso/system/aagrole.date_to])-Month([Agresso/system/aagrole.date_to])",
+                    "cType": "eInlineExpr"
+                  },
+                  {
+                    "expr": "=12*Year(Today())+Month(Today())-12*Year([Agresso/system/aaguser.date_from])-Month([Agresso/system/aaguser.date_from])",
+                    "cType": "eInlineExpr"
+                  }
+                ],
+                "msrs": []
+              }
+            }
+          }
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "JrjPU",
+          "qType": "auto-chart"
+        },
+        "qMetaDef": {},
+        "qHyperCubeDef": {
+          "qDimensions": [
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "menu_id"
+                ],
+                "qFieldLabels": [],
+                "qSortCriterias": [
+                  {
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {},
+                "qOtherLimit": {},
+                "qOtherLimitMode": "OTHER_GT_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {},
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "role_id-user_role_id"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "zvF",
+                "othersLabel": "Övriga"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Övriga"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "user_permissions"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "FVLmSr",
+                "othersLabel": "Övriga"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Övriga"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            }
+          ],
+          "qMeasures": [],
+          "qInterColumnSortOrder": [
+            0,
+            1,
+            2
+          ],
+          "qSuppressMissing": true,
+          "qInitialDataFetch": [],
+          "qReductionMode": "N",
+          "qMode": "S",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": [],
+          "qDynamicScript": [],
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": [],
+              "qDynamicScript": []
+            }
+          }
+        },
+        "showTitles": true,
+        "title": "aagaccess",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "visualization": "auto-chart",
+        "qUndoExclude": {
+          "hashCode": 169821344,
+          "generated": {
+            "qHyperCubeDef": {
+              "qDimensions": [
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "menu_id"
+                    ],
+                    "qFieldLabels": [],
+                    "qSortCriterias": [
+                      {
+                        "qSortByNumeric": 1,
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "UXjTTsU",
+                    "othersLabel": "Övriga",
+                    "textAlign": {
+                      "auto": true,
+                      "align": "left"
+                    },
+                    "representation": {
+                      "type": "text",
+                      "urlPosition": "dimension",
+                      "urlLabel": "",
+                      "linkUrl": "",
+                      "imageSetting": "label",
+                      "imageLabel": "",
+                      "imageUrl": ""
+                    }
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GT_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {},
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "othersLabel": "Övriga"
+                },
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "role_id-user_role_id"
+                    ],
+                    "qFieldLabels": [
+                      ""
+                    ],
+                    "qSortCriterias": [
+                      {
+                        "qSortByNumeric": 1,
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "WcxhHt",
+                    "othersLabel": "Övriga",
+                    "textAlign": {
+                      "auto": true,
+                      "align": "left"
+                    },
+                    "representation": {
+                      "type": "text",
+                      "urlPosition": "dimension",
+                      "urlLabel": "",
+                      "linkUrl": "",
+                      "imageSetting": "label",
+                      "imageLabel": "",
+                      "imageUrl": ""
+                    }
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GE_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {
+                    "qv": "Övriga"
+                  },
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "othersLabel": "Övriga"
+                },
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "user_permissions"
+                    ],
+                    "qFieldLabels": [
+                      ""
+                    ],
+                    "qSortCriterias": [
+                      {
+                        "qSortByNumeric": 1,
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "bjdvL",
+                    "othersLabel": "Övriga",
+                    "textAlign": {
+                      "auto": true,
+                      "align": "left"
+                    },
+                    "representation": {
+                      "type": "text",
+                      "urlPosition": "dimension",
+                      "urlLabel": "",
+                      "linkUrl": "",
+                      "imageSetting": "label",
+                      "imageLabel": "",
+                      "imageUrl": ""
+                    }
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GE_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {
+                    "qv": "Övriga"
+                  },
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "othersLabel": "Övriga"
+                }
+              ],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [
+                0,
+                1,
+                2
+              ],
+              "qSuppressMissing": true,
+              "qInitialDataFetch": [
+                {
+                  "qLeft": 0,
+                  "qTop": 0,
+                  "qWidth": 0,
+                  "qHeight": 0
+                }
+              ],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [
+                0,
+                1,
+                2
+              ],
+              "qExpansionState": [],
+              "qDynamicScript": [],
+              "columnOrder": [
+                0,
+                1,
+                2
+              ],
+              "columnWidths": [
+                -1,
+                -1,
+                -1
+              ]
+            },
+            "search": {
+              "sorting": "auto"
+            },
+            "showTitles": true,
+            "title": "aagaccess",
+            "subtitle": "",
+            "footnote": "",
+            "disableNavMenu": false,
+            "showDetails": false,
+            "qStateName": "",
+            "components": [],
+            "totals": {
+              "show": true,
+              "position": "noTotals",
+              "label": "Totalvärden"
+            },
+            "scrolling": {
+              "horizontal": true,
+              "keepFirstColumnInView": false,
+              "keepFirstColumnInViewTouch": false
+            },
+            "multiline": {
+              "wrapTextInHeaders": true,
+              "wrapTextInCells": true
+            },
+            "qInfo": {
+              "qType": "table"
+            },
+            "visualization": "table",
+            "isRecommended": true,
+            "qLayoutExclude": {
+              "disabled": {},
+              "quarantine": {
+                "conditionalShowHide": {
+                  "dimensions": {}
+                }
+              }
+            },
+            "recommendation": {
+              "analysis": {
+                "analysis": "list",
+                "dims": [
+                  {
+                    "field": "menu_id",
+                    "expr": "menu_id",
+                    "cType": "eField"
+                  },
+                  {
+                    "field": "role_id-user_role_id",
+                    "expr": "role_id-user_role_id",
+                    "cType": "eField"
+                  },
+                  {
+                    "field": "user_permissions",
+                    "expr": "user_permissions",
+                    "cType": "eField"
+                  }
+                ],
+                "msrs": []
+              }
+            }
+          }
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "tJAp",
+          "qType": "auto-chart"
+        },
+        "qMetaDef": {},
+        "qHyperCubeDef": {
+          "qDimensions": [
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "aaguserdetail.status"
+                ],
+                "qFieldLabels": [],
+                "qSortCriterias": [
+                  {
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {},
+                "qOtherLimit": {},
+                "qOtherLimitMode": "OTHER_GT_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {},
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "aaguserdetail.date_to"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "accqsV",
+                "othersLabel": "Övriga"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Övriga"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "aaguserdetail.date_from"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "DMpZe",
+                "othersLabel": "Övriga"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Övriga"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "=12*Year(Today())+Month(Today())-12*Year(aaguserdetail.date_from)-Month(aaguserdetail.date_from)"
+                ],
+                "qFieldLabels": [
+                  "Agresso/system/aaguserdetail.date_from.MonthsAgo"
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "vXvRDx",
+                "othersLabel": "Övriga"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Övriga"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "=12*Year(Today())+Month(Today())-12*Year(aaguserdetail.date_to)-Month(aaguserdetail.date_to)"
+                ],
+                "qFieldLabels": [
+                  "Agresso/system/aaguserdetail.date_to.MonthsAgo"
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "ZNTVP",
+                "othersLabel": "Övriga"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Övriga"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "aaguserdetail.client"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "wgPTyq",
+                "othersLabel": "Övriga"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Övriga"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            }
+          ],
+          "qMeasures": [],
+          "qInterColumnSortOrder": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "qSuppressMissing": true,
+          "qInitialDataFetch": [],
+          "qReductionMode": "N",
+          "qMode": "S",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": [],
+          "qDynamicScript": [],
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": [],
+              "qDynamicScript": []
+            }
+          }
+        },
+        "showTitles": true,
+        "title": "userdetail",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "visualization": "auto-chart",
+        "qUndoExclude": {
+          "hashCode": 798224952,
+          "generated": {
+            "qHyperCubeDef": {
+              "qDimensions": [
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "aaguserdetail.status"
+                    ],
+                    "qFieldLabels": [],
+                    "qSortCriterias": [
+                      {
+                        "qSortByNumeric": 1,
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "sJuzMj",
+                    "othersLabel": "Övriga",
+                    "textAlign": {
+                      "auto": true,
+                      "align": "left"
+                    },
+                    "representation": {
+                      "type": "text",
+                      "urlPosition": "dimension",
+                      "urlLabel": "",
+                      "linkUrl": "",
+                      "imageSetting": "label",
+                      "imageLabel": "",
+                      "imageUrl": ""
+                    }
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GT_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {},
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "othersLabel": "Övriga"
+                },
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "aaguserdetail.date_to"
+                    ],
+                    "qFieldLabels": [
+                      ""
+                    ],
+                    "qSortCriterias": [
+                      {
+                        "qSortByNumeric": 1,
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "WwUYp",
+                    "othersLabel": "Övriga",
+                    "textAlign": {
+                      "auto": true,
+                      "align": "left"
+                    },
+                    "representation": {
+                      "type": "text",
+                      "urlPosition": "dimension",
+                      "urlLabel": "",
+                      "linkUrl": "",
+                      "imageSetting": "label",
+                      "imageLabel": "",
+                      "imageUrl": ""
+                    }
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GE_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {
+                    "qv": "Övriga"
+                  },
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "othersLabel": "Övriga"
+                },
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "aaguserdetail.date_from"
+                    ],
+                    "qFieldLabels": [
+                      ""
+                    ],
+                    "qSortCriterias": [
+                      {
+                        "qSortByNumeric": 1,
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "BjQbRk",
+                    "othersLabel": "Övriga",
+                    "textAlign": {
+                      "auto": true,
+                      "align": "left"
+                    },
+                    "representation": {
+                      "type": "text",
+                      "urlPosition": "dimension",
+                      "urlLabel": "",
+                      "linkUrl": "",
+                      "imageSetting": "label",
+                      "imageLabel": "",
+                      "imageUrl": ""
+                    }
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GE_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {
+                    "qv": "Övriga"
+                  },
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "othersLabel": "Övriga"
+                },
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "=12*Year(Today())+Month(Today())-12*Year(aaguserdetail.date_from)-Month(aaguserdetail.date_from)"
+                    ],
+                    "qFieldLabels": [
+                      "Agresso/system/aaguserdetail.date_from.MonthsAgo"
+                    ],
+                    "qSortCriterias": [
+                      {
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "JamJpJ",
+                    "othersLabel": "Övriga",
+                    "textAlign": {
+                      "auto": true,
+                      "align": "left"
+                    },
+                    "representation": {
+                      "type": "text",
+                      "urlPosition": "dimension",
+                      "urlLabel": "",
+                      "linkUrl": "",
+                      "imageSetting": "label",
+                      "imageLabel": "",
+                      "imageUrl": ""
+                    }
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GE_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {
+                    "qv": "Övriga"
+                  },
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "othersLabel": "Övriga"
+                },
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "=12*Year(Today())+Month(Today())-12*Year(aaguserdetail.date_to)-Month(aaguserdetail.date_to)"
+                    ],
+                    "qFieldLabels": [
+                      "Agresso/system/aaguserdetail.date_to.MonthsAgo"
+                    ],
+                    "qSortCriterias": [
+                      {
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "bJVhes",
+                    "othersLabel": "Övriga",
+                    "textAlign": {
+                      "auto": true,
+                      "align": "left"
+                    },
+                    "representation": {
+                      "type": "text",
+                      "urlPosition": "dimension",
+                      "urlLabel": "",
+                      "linkUrl": "",
+                      "imageSetting": "label",
+                      "imageLabel": "",
+                      "imageUrl": ""
+                    }
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GE_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {
+                    "qv": "Övriga"
+                  },
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "othersLabel": "Övriga"
+                },
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "aaguserdetail.client"
+                    ],
+                    "qFieldLabels": [
+                      ""
+                    ],
+                    "qSortCriterias": [
+                      {
+                        "qSortByNumeric": 1,
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "vNLLGC",
+                    "othersLabel": "Övriga",
+                    "textAlign": {
+                      "auto": true,
+                      "align": "left"
+                    },
+                    "representation": {
+                      "type": "text",
+                      "urlPosition": "dimension",
+                      "urlLabel": "",
+                      "linkUrl": "",
+                      "imageSetting": "label",
+                      "imageLabel": "",
+                      "imageUrl": ""
+                    }
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GE_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {
+                    "qv": "Övriga"
+                  },
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "othersLabel": "Övriga"
+                }
+              ],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "qSuppressMissing": true,
+              "qInitialDataFetch": [
+                {
+                  "qLeft": 0,
+                  "qTop": 0,
+                  "qWidth": 0,
+                  "qHeight": 0
+                }
+              ],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "qExpansionState": [],
+              "qDynamicScript": [],
+              "columnOrder": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "columnWidths": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            },
+            "search": {
+              "sorting": "auto"
+            },
+            "showTitles": true,
+            "title": "userdetail",
+            "subtitle": "",
+            "footnote": "",
+            "disableNavMenu": false,
+            "showDetails": false,
+            "qStateName": "",
+            "components": [],
+            "totals": {
+              "show": true,
+              "position": "noTotals",
+              "label": "Totalvärden"
+            },
+            "scrolling": {
+              "horizontal": true,
+              "keepFirstColumnInView": false,
+              "keepFirstColumnInViewTouch": false
+            },
+            "multiline": {
+              "wrapTextInHeaders": true,
+              "wrapTextInCells": true
+            },
+            "qInfo": {
+              "qType": "table"
+            },
+            "visualization": "table",
+            "isRecommended": true,
+            "qLayoutExclude": {
+              "disabled": {},
+              "quarantine": {
+                "conditionalShowHide": {
+                  "dimensions": {}
+                }
+              }
+            },
+            "recommendation": {
+              "analysis": {
+                "analysis": "list",
+                "dims": [
+                  {
+                    "field": "Agresso/system/aaguserdetail.status",
+                    "expr": "Agresso/system/aaguserdetail.status",
+                    "cType": "eField"
+                  },
+                  {
+                    "field": "Agresso/system/aaguserdetail.date_to",
+                    "expr": "Agresso/system/aaguserdetail.date_to",
+                    "cType": "eField"
+                  },
+                  {
+                    "field": "Agresso/system/aaguserdetail.date_from",
+                    "expr": "Agresso/system/aaguserdetail.date_from",
+                    "cType": "eField"
+                  },
+                  {
+                    "expr": "=12*Year(Today())+Month(Today())-12*Year([Agresso/system/aaguserdetail.date_from])-Month([Agresso/system/aaguserdetail.date_from])",
+                    "cType": "eInlineExpr"
+                  },
+                  {
+                    "expr": "=12*Year(Today())+Month(Today())-12*Year([Agresso/system/aaguserdetail.date_to])-Month([Agresso/system/aaguserdetail.date_to])",
+                    "cType": "eInlineExpr"
+                  },
+                  {
+                    "field": "Agresso/system/aaguserdetail.client",
+                    "expr": "Agresso/system/aaguserdetail.client",
+                    "cType": "eField"
+                  }
+                ],
+                "msrs": []
+              }
+            }
+          }
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "Kppgpem",
+          "qType": "auto-chart"
+        },
+        "qMetaDef": {},
+        "qHyperCubeDef": {
+          "qDimensions": [
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "user_id"
+                ],
+                "qFieldLabels": [],
+                "qSortCriterias": [
+                  {
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {},
+                "qOtherLimit": {},
+                "qOtherLimitMode": "OTHER_GT_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {},
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "ahsresources.name"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "PPqjrG",
+                "othersLabel": "Övriga"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Övriga"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "ahsresources.status"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "VNQHBuY",
+                "othersLabel": "Övriga"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Övriga"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "ahsresources.date_to"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "TqhZy",
+                "othersLabel": "Övriga"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Övriga"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "ahsresources.date_from"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "tmRCzv",
+                "othersLabel": "Övriga"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Övriga"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            }
+          ],
+          "qMeasures": [],
+          "qInterColumnSortOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "qSuppressMissing": true,
+          "qInitialDataFetch": [],
+          "qReductionMode": "N",
+          "qMode": "S",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": [],
+          "qDynamicScript": [],
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": [],
+              "qDynamicScript": []
+            }
+          }
+        },
+        "showTitles": true,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "visualization": "auto-chart",
+        "qUndoExclude": {
+          "hashCode": 1558563126,
+          "generated": {
+            "qHyperCubeDef": {
+              "qDimensions": [
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "user_id"
+                    ],
+                    "qFieldLabels": [],
+                    "qSortCriterias": [
+                      {
+                        "qSortByNumeric": 1,
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "PvdQs",
+                    "othersLabel": "Övriga",
+                    "textAlign": {
+                      "auto": true,
+                      "align": "left"
+                    },
+                    "representation": {
+                      "type": "text",
+                      "urlPosition": "dimension",
+                      "urlLabel": "",
+                      "linkUrl": "",
+                      "imageSetting": "label",
+                      "imageLabel": "",
+                      "imageUrl": ""
+                    }
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GT_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {},
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "othersLabel": "Övriga"
+                },
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "ahsresources.name"
+                    ],
+                    "qFieldLabels": [
+                      ""
+                    ],
+                    "qSortCriterias": [
+                      {
+                        "qSortByNumeric": 1,
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "KFMx",
+                    "othersLabel": "Övriga",
+                    "textAlign": {
+                      "auto": true,
+                      "align": "left"
+                    },
+                    "representation": {
+                      "type": "text",
+                      "urlPosition": "dimension",
+                      "urlLabel": "",
+                      "linkUrl": "",
+                      "imageSetting": "label",
+                      "imageLabel": "",
+                      "imageUrl": ""
+                    }
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GE_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {
+                    "qv": "Övriga"
+                  },
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "othersLabel": "Övriga"
+                },
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "ahsresources.status"
+                    ],
+                    "qFieldLabels": [
+                      ""
+                    ],
+                    "qSortCriterias": [
+                      {
+                        "qSortByNumeric": 1,
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "cDfmA",
+                    "othersLabel": "Övriga",
+                    "textAlign": {
+                      "auto": true,
+                      "align": "left"
+                    },
+                    "representation": {
+                      "type": "text",
+                      "urlPosition": "dimension",
+                      "urlLabel": "",
+                      "linkUrl": "",
+                      "imageSetting": "label",
+                      "imageLabel": "",
+                      "imageUrl": ""
+                    }
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GE_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {
+                    "qv": "Övriga"
+                  },
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "othersLabel": "Övriga"
+                },
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "ahsresources.date_to"
+                    ],
+                    "qFieldLabels": [
+                      ""
+                    ],
+                    "qSortCriterias": [
+                      {
+                        "qSortByNumeric": 1,
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "mHPyj",
+                    "othersLabel": "Övriga",
+                    "textAlign": {
+                      "auto": true,
+                      "align": "left"
+                    },
+                    "representation": {
+                      "type": "text",
+                      "urlPosition": "dimension",
+                      "urlLabel": "",
+                      "linkUrl": "",
+                      "imageSetting": "label",
+                      "imageLabel": "",
+                      "imageUrl": ""
+                    }
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GE_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {
+                    "qv": "Övriga"
+                  },
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "othersLabel": "Övriga"
+                },
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "ahsresources.date_from"
+                    ],
+                    "qFieldLabels": [
+                      ""
+                    ],
+                    "qSortCriterias": [
+                      {
+                        "qSortByNumeric": 1,
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "yKwj",
+                    "othersLabel": "Övriga",
+                    "textAlign": {
+                      "auto": true,
+                      "align": "left"
+                    },
+                    "representation": {
+                      "type": "text",
+                      "urlPosition": "dimension",
+                      "urlLabel": "",
+                      "linkUrl": "",
+                      "imageSetting": "label",
+                      "imageLabel": "",
+                      "imageUrl": ""
+                    }
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GE_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {
+                    "qv": "Övriga"
+                  },
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "othersLabel": "Övriga"
+                }
+              ],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ],
+              "qSuppressMissing": true,
+              "qInitialDataFetch": [
+                {
+                  "qLeft": 0,
+                  "qTop": 0,
+                  "qWidth": 0,
+                  "qHeight": 0
+                }
+              ],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ],
+              "qExpansionState": [],
+              "qDynamicScript": [],
+              "columnOrder": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ],
+              "columnWidths": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            },
+            "search": {
+              "sorting": "auto"
+            },
+            "showTitles": true,
+            "title": "",
+            "subtitle": "",
+            "footnote": "",
+            "disableNavMenu": false,
+            "showDetails": false,
+            "qStateName": "",
+            "components": [],
+            "totals": {
+              "show": true,
+              "position": "noTotals",
+              "label": "Totalvärden"
+            },
+            "scrolling": {
+              "horizontal": true,
+              "keepFirstColumnInView": false,
+              "keepFirstColumnInViewTouch": false
+            },
+            "multiline": {
+              "wrapTextInHeaders": true,
+              "wrapTextInCells": true
+            },
+            "qInfo": {
+              "qType": "table"
+            },
+            "visualization": "table",
+            "isRecommended": true,
+            "qLayoutExclude": {
+              "disabled": {},
+              "quarantine": {
+                "conditionalShowHide": {
+                  "dimensions": {}
+                }
+              }
+            },
+            "recommendation": {
+              "analysis": {
+                "analysis": "list",
+                "dims": [
+                  {
+                    "field": "user_id",
+                    "expr": "user_id",
+                    "cType": "eField"
+                  },
+                  {
+                    "field": "ahsresources.name",
+                    "expr": "ahsresources.name",
+                    "cType": "eField"
+                  },
+                  {
+                    "field": "ahsresources.status",
+                    "expr": "ahsresources.status",
+                    "cType": "eField"
+                  },
+                  {
+                    "field": "ahsresources.date_to",
+                    "expr": "ahsresources.date_to",
+                    "cType": "eField"
+                  },
+                  {
+                    "field": "ahsresources.date_from",
+                    "expr": "ahsresources.date_from",
+                    "cType": "eField"
+                  }
+                ],
+                "msrs": []
+              }
+            }
+          }
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "sKVdRVp",
+          "qType": "auto-chart"
+        },
+        "qMetaDef": {},
+        "qHyperCubeDef": {
+          "qDimensions": [
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "licensetype"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "cmSmLk",
+                "othersLabel": "Övriga"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Övriga"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "Module Code-modulename"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "wXMsG",
+                "othersLabel": "Övriga"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Övriga"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "license_ref"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "HSDqbE",
+                "othersLabel": "Övriga"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Övriga"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            }
+          ],
+          "qMeasures": [],
+          "qInterColumnSortOrder": [
+            0,
+            1,
+            2
+          ],
+          "qSuppressMissing": true,
+          "qInitialDataFetch": [],
+          "qReductionMode": "N",
+          "qMode": "S",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": [],
+          "qDynamicScript": [],
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": [],
+              "qDynamicScript": []
+            }
+          }
+        },
+        "showTitles": true,
+        "title": "license",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "visualization": "auto-chart",
+        "qUndoExclude": {
+          "hashCode": 734648781,
+          "generated": {
+            "qHyperCubeDef": {
+              "qDimensions": [
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "licensetype"
+                    ],
+                    "qFieldLabels": [
+                      ""
+                    ],
+                    "qSortCriterias": [
+                      {
+                        "qSortByNumeric": 1,
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "HqUWnt",
+                    "othersLabel": "Övriga",
+                    "textAlign": {
+                      "auto": true,
+                      "align": "left"
+                    },
+                    "representation": {
+                      "type": "text",
+                      "urlPosition": "dimension",
+                      "urlLabel": "",
+                      "linkUrl": "",
+                      "imageSetting": "label",
+                      "imageLabel": "",
+                      "imageUrl": ""
+                    }
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GE_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {
+                    "qv": "Övriga"
+                  },
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "othersLabel": "Övriga"
+                },
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "Module Code-modulename"
+                    ],
+                    "qFieldLabels": [
+                      ""
+                    ],
+                    "qSortCriterias": [
+                      {
+                        "qSortByNumeric": 1,
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "DuJuxb",
+                    "othersLabel": "Övriga",
+                    "textAlign": {
+                      "auto": true,
+                      "align": "left"
+                    },
+                    "representation": {
+                      "type": "text",
+                      "urlPosition": "dimension",
+                      "urlLabel": "",
+                      "linkUrl": "",
+                      "imageSetting": "label",
+                      "imageLabel": "",
+                      "imageUrl": ""
+                    }
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GE_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {
+                    "qv": "Övriga"
+                  },
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "othersLabel": "Övriga"
+                },
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "license_ref"
+                    ],
+                    "qFieldLabels": [
+                      ""
+                    ],
+                    "qSortCriterias": [
+                      {
+                        "qSortByNumeric": 1,
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "kSnktBt",
+                    "othersLabel": "Övriga",
+                    "textAlign": {
+                      "auto": true,
+                      "align": "left"
+                    },
+                    "representation": {
+                      "type": "text",
+                      "urlPosition": "dimension",
+                      "urlLabel": "",
+                      "linkUrl": "",
+                      "imageSetting": "label",
+                      "imageLabel": "",
+                      "imageUrl": ""
+                    }
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GE_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {
+                    "qv": "Övriga"
+                  },
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "othersLabel": "Övriga"
+                }
+              ],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [
+                0,
+                1,
+                2
+              ],
+              "qSuppressMissing": true,
+              "qInitialDataFetch": [
+                {
+                  "qLeft": 0,
+                  "qTop": 0,
+                  "qWidth": 0,
+                  "qHeight": 0
+                }
+              ],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [
+                0,
+                1,
+                2
+              ],
+              "qExpansionState": [],
+              "qDynamicScript": [],
+              "columnOrder": [
+                0,
+                1,
+                2
+              ],
+              "columnWidths": [
+                -1,
+                -1,
+                -1
+              ]
+            },
+            "search": {
+              "sorting": "auto"
+            },
+            "showTitles": true,
+            "title": "license",
+            "subtitle": "",
+            "footnote": "",
+            "disableNavMenu": false,
+            "showDetails": false,
+            "qStateName": "",
+            "components": [],
+            "totals": {
+              "show": true,
+              "position": "noTotals",
+              "label": "Totalvärden"
+            },
+            "scrolling": {
+              "horizontal": true,
+              "keepFirstColumnInView": false,
+              "keepFirstColumnInViewTouch": false
+            },
+            "multiline": {
+              "wrapTextInHeaders": true,
+              "wrapTextInCells": true
+            },
+            "qInfo": {
+              "qType": "table"
+            },
+            "visualization": "table",
+            "isRecommended": true,
+            "qLayoutExclude": {
+              "disabled": {},
+              "quarantine": {
+                "conditionalShowHide": {
+                  "dimensions": {}
+                }
+              }
+            },
+            "recommendation": {
+              "analysis": {
+                "analysis": "list",
+                "dims": [
+                  {
+                    "field": "licensetype",
+                    "expr": "licensetype",
+                    "cType": "eField"
+                  },
+                  {
+                    "field": "Module Code-modulename",
+                    "expr": "Module Code-modulename",
+                    "cType": "eField"
+                  },
+                  {
+                    "field": "license_ref",
+                    "expr": "license_ref",
+                    "cType": "eField"
+                  }
+                ],
+                "msrs": []
+              }
+            }
+          }
+        }
+      },
+      "qChildren": []
+    }
+  ]
+}

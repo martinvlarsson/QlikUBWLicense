@@ -1,0 +1,1038 @@
+[
+  {
+    "qName": "Depth",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Tab_treemenustructureraw"
+    ]
+  },
+  {
+    "qName": "ESSlicenses.description",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "ESSlicenses"
+    ]
+  },
+  {
+    "qName": "Installed License Qty",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "systemlicensemapping"
+    ]
+  },
+  {
+    "qName": "License Qty",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "systemlicensemapping"
+    ]
+  },
+  {
+    "qName": "Module Code-modulename",
+    "qTags": [
+      "$key",
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "ESSlicenses",
+      "systemlicensemapping"
+    ]
+  },
+  {
+    "qName": "ParentName",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_treemenustructureraw"
+    ]
+  },
+  {
+    "qName": "PathName",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_treemenustructureraw"
+    ]
+  },
+  {
+    "qName": "ScreenusageStandard.client",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_Screenusage"
+    ]
+  },
+  {
+    "qName": "ScreenusageStandard.date_started",
+    "qTags": [
+      "$numeric",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Tab_Screenusage"
+    ]
+  },
+  {
+    "qName": "ScreenusageStandard.description",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_Screenusage"
+    ]
+  },
+  {
+    "qName": "ScreenusageStandard.end_date",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "Tab_Screenusage"
+    ]
+  },
+  {
+    "qName": "ScreenusageStandard.icon_type",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Tab_Screenusage"
+    ]
+  },
+  {
+    "qName": "ScreenusageStandard.licence_ref",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_Screenusage"
+    ]
+  },
+  {
+    "qName": "ScreenusageStandard.menu_type",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Tab_Screenusage"
+    ]
+  },
+  {
+    "qName": "ScreenusageStandard.tree_type",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Tab_Screenusage"
+    ]
+  },
+  {
+    "qName": "aagaccess.tree_type",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Tab_aagaccess"
+    ]
+  },
+  {
+    "qName": "aagrole.date_from",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Tab_aagrole"
+    ]
+  },
+  {
+    "qName": "aagrole.date_to",
+    "qTags": [
+      "$numeric",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Tab_aagrole"
+    ]
+  },
+  {
+    "qName": "aagrole.last_update",
+    "qTags": [
+      "$numeric",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Tab_aagrole"
+    ]
+  },
+  {
+    "qName": "aagrole.status",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_aagrole"
+    ]
+  },
+  {
+    "qName": "aagroledetail.client",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_aagroledetail"
+    ]
+  },
+  {
+    "qName": "aagroledetail.last_update",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "Tab_aagroledetail"
+    ]
+  },
+  {
+    "qName": "aagsesshist.status",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_aagsesshist"
+    ]
+  },
+  {
+    "qName": "aagsesshist.user_id",
+    "qTags": [],
+    "qSrcTables": [
+      "Tab_aagsesshist"
+    ]
+  },
+  {
+    "qName": "aaguser.date_from",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Tab_aaguser"
+    ]
+  },
+  {
+    "qName": "aaguser.date_to",
+    "qTags": [
+      "$numeric",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Tab_aaguser"
+    ]
+  },
+  {
+    "qName": "aaguser.description",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_aaguser"
+    ]
+  },
+  {
+    "qName": "aaguser.last_update",
+    "qTags": [
+      "$numeric",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Tab_aaguser"
+    ]
+  },
+  {
+    "qName": "aaguser.status",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_aaguser"
+    ]
+  },
+  {
+    "qName": "aaguserdetail.client",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_aaguserdetail"
+    ]
+  },
+  {
+    "qName": "aaguserdetail.date_from",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Tab_aaguserdetail"
+    ]
+  },
+  {
+    "qName": "aaguserdetail.date_to",
+    "qTags": [
+      "$numeric",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Tab_aaguserdetail"
+    ]
+  },
+  {
+    "qName": "aaguserdetail.last_update",
+    "qTags": [
+      "$numeric",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Tab_aaguserdetail"
+    ]
+  },
+  {
+    "qName": "aaguserdetail.status",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_aaguserdetail"
+    ]
+  },
+  {
+    "qName": "access_id",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_Screenusage"
+    ]
+  },
+  {
+    "qName": "agrtid",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Tab_experiencepacks"
+    ]
+  },
+  {
+    "qName": "ahsresourcekey",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_ahsresources"
+    ]
+  },
+  {
+    "qName": "ahsresources.client",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_ahsresources"
+    ]
+  },
+  {
+    "qName": "ahsresources.date_from",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Tab_ahsresources"
+    ]
+  },
+  {
+    "qName": "ahsresources.date_started",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Tab_ahsresources"
+    ]
+  },
+  {
+    "qName": "ahsresources.date_to",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Tab_ahsresources"
+    ]
+  },
+  {
+    "qName": "ahsresources.expired_date",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Tab_ahsresources"
+    ]
+  },
+  {
+    "qName": "ahsresources.first_name",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_ahsresources"
+    ]
+  },
+  {
+    "qName": "ahsresources.main_res_id",
+    "qTags": [],
+    "qSrcTables": [
+      "Tab_ahsresources"
+    ]
+  },
+  {
+    "qName": "ahsresources.name",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_ahsresources"
+    ]
+  },
+  {
+    "qName": "ahsresources.social_sec",
+    "qTags": [],
+    "qSrcTables": [
+      "Tab_ahsresources"
+    ]
+  },
+  {
+    "qName": "ahsresources.status",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_ahsresources"
+    ]
+  },
+  {
+    "qName": "assembly_name",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_awfobjectlog"
+    ]
+  },
+  {
+    "qName": "atstseheader.client",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_atstseheader"
+    ]
+  },
+  {
+    "qName": "atstseheader.last_update",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "Tab_atstseheader"
+    ]
+  },
+  {
+    "qName": "atstseheader.status",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_atstseheader"
+    ]
+  },
+  {
+    "qName": "blob_image",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_blob_Image"
+    ]
+  },
+  {
+    "qName": "client",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_aagsesshist"
+    ]
+  },
+  {
+    "qName": "compatibility_level",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Tab_experiencepacks"
+    ]
+  },
+  {
+    "qName": "description",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_awfobjectlog"
+    ]
+  },
+  {
+    "qName": "element_type",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_awfobjectlog"
+    ]
+  },
+  {
+    "qName": "experiencepacks.description",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_experiencepacks"
+    ]
+  },
+  {
+    "qName": "func_name",
+    "qTags": [],
+    "qSrcTables": [
+      "Tab_treemenustructureraw"
+    ]
+  },
+  {
+    "qName": "icon_type",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Tab_treemenustructureraw"
+    ]
+  },
+  {
+    "qName": "info",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_asyssetup"
+    ]
+  },
+  {
+    "qName": "json_data",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_Screenusage"
+    ]
+  },
+  {
+    "qName": "language",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_aaguser"
+    ]
+  },
+  {
+    "qName": "licence_ref",
+    "qTags": [
+      "$key",
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_treemenustructureraw",
+      "systemlicensemapping"
+    ]
+  },
+  {
+    "qName": "license_ref",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "ESSlicenses"
+    ]
+  },
+  {
+    "qName": "licensetype",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "ESSlicenses"
+    ]
+  },
+  {
+    "qName": "login_time",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "Tab_aagsesshist"
+    ]
+  },
+  {
+    "qName": "logout_time",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Tab_aagsesshist"
+    ]
+  },
+  {
+    "qName": "menu table",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_Screenusage"
+    ]
+  },
+  {
+    "qName": "menu_id",
+    "qTags": [
+      "$key"
+    ],
+    "qSrcTables": [
+      "Tab_treemenustructureraw",
+      "Tab_aagaccess"
+    ]
+  },
+  {
+    "qName": "menu_type",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Tab_treemenustructureraw"
+    ]
+  },
+  {
+    "qName": "module",
+    "qTags": [],
+    "qSrcTables": [
+      "Tab_Screenusage"
+    ]
+  },
+  {
+    "qName": "name",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_asyssetup"
+    ]
+  },
+  {
+    "qName": "nolicenses",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "ESSlicenses"
+    ]
+  },
+  {
+    "qName": "objlog.last_update",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "Tab_awfobjectlog"
+    ]
+  },
+  {
+    "qName": "parent_menu_id",
+    "qTags": [],
+    "qSrcTables": [
+      "Tab_treemenustructureraw"
+    ]
+  },
+  {
+    "qName": "product_id",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Tab_experiencepacks"
+    ]
+  },
+  {
+    "qName": "product_name",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_experiencepacks"
+    ]
+  },
+  {
+    "qName": "product_type",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Tab_experiencepacks"
+    ]
+  },
+  {
+    "qName": "reg_period",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Tab_atstseheader"
+    ]
+  },
+  {
+    "qName": "reg_period_id",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_atstseheader"
+    ]
+  },
+  {
+    "qName": "role.description",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_aagrole"
+    ]
+  },
+  {
+    "qName": "role_id-user_role_id",
+    "qTags": [
+      "$key"
+    ],
+    "qSrcTables": [
+      "Tab_aaguserdetail",
+      "Tab_aagrole",
+      "Tab_aagroledetail",
+      "Tab_aagaccess"
+    ]
+  },
+  {
+    "qName": "sequence_no",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Tab_treemenustructureraw"
+    ]
+  },
+  {
+    "qName": "system_name",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_aagsesshist"
+    ]
+  },
+  {
+    "qName": "time_from",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Tab_aaguser"
+    ]
+  },
+  {
+    "qName": "time_to",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Tab_aaguser"
+    ]
+  },
+  {
+    "qName": "title_en",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_treemenustructureraw"
+    ]
+  },
+  {
+    "qName": "title_en1",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_treemenustructureraw"
+    ]
+  },
+  {
+    "qName": "title_en2",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_treemenustructureraw"
+    ]
+  },
+  {
+    "qName": "title_en3",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_treemenustructureraw"
+    ]
+  },
+  {
+    "qName": "title_en4",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_treemenustructureraw"
+    ]
+  },
+  {
+    "qName": "title_en5",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_treemenustructureraw"
+    ]
+  },
+  {
+    "qName": "title_en6",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_treemenustructureraw"
+    ]
+  },
+  {
+    "qName": "title_en7",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_treemenustructureraw"
+    ]
+  },
+  {
+    "qName": "title_en8",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_treemenustructureraw"
+    ]
+  },
+  {
+    "qName": "title_no",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Tab_treemenustructureraw"
+    ]
+  },
+  {
+    "qName": "tree_type",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Tab_treemenustructureraw"
+    ]
+  },
+  {
+    "qName": "user_id",
+    "qTags": [
+      "$key"
+    ],
+    "qSrcTables": [
+      "Tab_ahsresources",
+      "Tab_aaguser",
+      "Tab_aaguserdetail",
+      "Tab_atstseheader",
+      "Tab_Screenusage",
+      "Tab_awfobjectlog"
+    ]
+  },
+  {
+    "qName": "user_name",
+    "qTags": [],
+    "qSrcTables": [
+      "Tab_aaguser"
+    ]
+  },
+  {
+    "qName": "user_permissions",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_aagaccess"
+    ]
+  },
+  {
+    "qName": "user_role_name",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_aagaccess"
+    ]
+  },
+  {
+    "qName": "user_role_type",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_aagaccess"
+    ]
+  },
+  {
+    "qName": "version_code",
+    "qTags": [],
+    "qSrcTables": [
+      "Tab_experiencepacks"
+    ]
+  },
+  {
+    "qName": "version_name",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_experiencepacks"
+    ]
+  },
+  {
+    "qName": "view_id",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tab_Screenusage"
+    ]
+  }
+]

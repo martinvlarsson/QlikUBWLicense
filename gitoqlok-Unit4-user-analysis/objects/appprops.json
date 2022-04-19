@@ -1,0 +1,23 @@
+[
+  {
+    "qProperty": {
+      "qInfo": {
+        "qId": "9b9f5723-de94-444d-9019-56e124428c9f",
+        "qType": "appprops"
+      },
+      "qMetaDef": {},
+      "sheetTitleBgColor": "",
+      "sheetTitleGradientColor": "",
+      "sheetTitleColor": "",
+      "sheetLogoThumbnail": {
+        "qStaticContentUrlDef": {}
+      },
+      "sheetLogoPosition": "",
+      "rtl": false,
+      "theme": "horizon",
+      "disableCellNavMenu": false,
+      "defaultBookmarkId": "df54b5e7-c024-46b3-9a08-91e32cd07384"
+    },
+    "qChildren": []
+  }
+]

@@ -1,0 +1,262 @@
+///$tab Extract from esson (commented out
+//*********************************************************************************************************
+//
+// ESS Agresso DB Extraction - Data Extraction from Agresso database
+//
+// Tab comment:
+// Extract data from database
+// Note! This data is read for ESS AB (Client = ES)
+//
+//*********************************************************************************************************
+/*Set vDBConnection = esson;
+If '$(vFromDB)' = 'Y' Then
+	// Connection name set before, reuse
+	ODBC Connect To $(vDBConnection) ;
+
+
+
+//--------------------------------------------------------------------------------------------------------------
+//all use/license related data
+
+// Read acrlicense
+Tab_SqlSelectFromDB_Tmp:
+	SQL	SELECT  blob_image
+	FROM $(vDBConnection).dbo.acrlicense;
+
+	Store * From Tab_SqlSelectFromDB_Tmp Into [$(vLocalQVDFiles)\Agresso\system\Tab_blob_Image.qvd];
+
+	Drop Table Tab_SqlSelectFromDB_Tmp;
+
+// Read asyssetup
+Tab_SqlSelectFromDB_Tmp:
+	
+SQL	SELECT 'Query Extract Date' AS name, CONVERT(VARCHAR(100),GETDATE(),103) AS info UNION SELECT 'Database' AS name, @@VERSION AS version UNION SELECT 'Business World', text1 + ' - ' + text2 
+	FROM $(vDBConnection).dbo.asyssetup WHERE name = 'BASE_VERSION';
+
+	Store * From Tab_SqlSelectFromDB_Tmp Into [$(vLocalQVDFiles)\Agresso\system\asyssetup.qvd];
+
+	Drop Table Tab_SqlSelectFromDB_Tmp;
+	
+// Read experiencepacks
+Tab_SqlSelectFromDB_Tmp:
+	SQL	SELECT p.*, v.version_code, v.compatibility_level, v.version_name, v.description
+	FROM $(vDBConnection).dbo.asysproduct p, $(vDBConnection).dbo.asysproductversion v WHERE v.product_id = p.product_id;
+
+	Store * From Tab_SqlSelectFromDB_Tmp Into [$(vLocalQVDFiles)\Agresso\system\experiencepacks.qvd];
+
+	Drop Table Tab_SqlSelectFromDB_Tmp;
+
+// Read Tab_SessionHist
+Tab_SqlSelectFromDB_Tmp:
+	SQL SELECT user_id, client, login_time, logout_time, status, system_name
+	FROM $(vDBConnection).dbo.aagsesshist WHERE login_time > DATEADD(year,-2,GETDATE()); 
+
+	Store * From Tab_SqlSelectFromDB_Tmp Into [$(vLocalQVDFiles)\Agresso\system\aagsesshist.qvd];
+
+	Drop Table Tab_SqlSelectFromDB_Tmp;
+	
+
+
+//Tab_Users: 
+Tab_SqlSelectFromDB_Tmp:
+SQL
+	SELECT user_id, user_name, description, language, status, date_from, date_to, time_from, time_to, last_update FROM $(vDBConnection).dbo.aaguser ;
+	
+
+	Store * From Tab_SqlSelectFromDB_Tmp Into [$(vLocalQVDFiles)\Agresso\system\aaguser.qvd];
+
+	Drop Table Tab_SqlSelectFromDB_Tmp;
+	
+
+
+//Tab_UserDetails:
+Tab_SqlSelectFromDB_Tmp:
+	SQL SELECT user_id, role_id, client, status, date_from, date_to, last_update  FROM $(vDBConnection).dbo.aaguserdetail ;
+	
+
+	Store * From Tab_SqlSelectFromDB_Tmp Into [$(vLocalQVDFiles)\Agresso\system\aaguserdetail.qvd];
+
+	Drop Table Tab_SqlSelectFromDB_Tmp;
+	
+
+//Tab_Roles: 
+	Tab_SqlSelectFromDB_Tmp:
+	SQL SELECT role_id, description, status, date_from, date_to, last_update FROM $(vDBConnection).dbo.aagrole ;
+	
+
+	Store * From Tab_SqlSelectFromDB_Tmp Into [$(vLocalQVDFiles)\Agresso\system\aagrole.qvd];
+
+	Drop Table Tab_SqlSelectFromDB_Tmp;
+
+
+//Tab_RoleDetails:
+Tab_SqlSelectFromDB_Tmp: 
+SQL	SELECT role_id, client, last_update FROM $(vDBConnection).dbo.aagroledetail ;
+	
+
+	Store * From Tab_SqlSelectFromDB_Tmp Into [$(vLocalQVDFiles)\Agresso\system\aagroledetail.qvd];
+
+	Drop Table Tab_SqlSelectFromDB_Tmp;
+
+
+//raw data, build tree from this, using muni_id=parent_menu_id (and tree_sequence+1=sequence_id, if matching unit4 format)
+Tab_SqlSelectFromDB_Tmp:
+
+SQL SELECT MEN.tree_type, 
+         MEN.menu_id, 
+	 MEN.func_name, 	
+         MEN.parent_menu_id, 
+         MEN.menu_type, 
+         MEN.sequence_no, 
+         MEN.licence_ref, 
+         MEN.icon_type, 
+         MEN.title_no, 
+         MEN.title_en 
+  FROM   (SELECT MEN.tree_type, 
+                 MEN.menu_id,
+		 MEN.func_name, 
+                 MEN.parent_menu_id, 
+                 MEN.menu_type, 
+                 MEN.sequence_no, 
+                 CASE 
+                   WHEN MEN.menu_type IN ( 5, 6 ) THEN '' 
+                   ELSE MEN.licence_ref 
+                 END                                                AS 
+                 licence_ref 
+                 , 
+                 MEN.icon_type, 
+                 MEN.title_no, 
+                 CASE WHEN MEN.menu_type = 5 THEN N'TAB/' WHEN MEN.menu_type = 6 
+                 THEN 
+                         N'TOOL/' 
+                 ELSE N'' END 
+                 + Isnull(AAGTEN.title, Isnull(SYSTEN.title, N'?')) AS title_en 
+          FROM   $(vDBConnection).dbo.asysmenu MEN 
+                 LEFT OUTER JOIN $(vDBConnection).dbo.asystitlesen SYSTEN 
+                              ON MEN.title_no = SYSTEN.title_no 
+                 LEFT OUTER JOIN $(vDBConnection).dbo.aagtitles AAGTEN 
+                              ON MEN.title_no = AAGTEN.title_no 
+                                 AND AAGTEN.language = N'EN' 
+          UNION 
+          SELECT MEN.tree_type, 
+                 MEN.menu_id,
+		 MEN.func_name, 
+                 MEN.parent_menu_id, 
+                 MEN.menu_type, 
+                 MEN.sequence_no, 
+                 CASE 
+                   WHEN MEN.menu_type IN ( 5, 6 ) THEN '' 
+                   ELSE MEN.licence_ref 
+                 END                            AS licence_ref, 
+                 MEN.icon_type, 
+                 0, 
+                 CASE WHEN MEN.menu_type = 5 THEN N'TAB/' WHEN MEN.menu_type = 6 
+                 THEN 
+                 N'TOOL/' 
+                 ELSE N'' END + MEN.description AS title_en 
+          FROM    $(vDBConnection).dbo.aagmenu MEN 
+          WHERE  MEN.user_id = N'*') AS MEN ;
+	Store * From Tab_SqlSelectFromDB_Tmp Into [$(vLocalQVDFiles)\Agresso\system\treemenustructureraw.qvd];
+
+	Drop Table Tab_SqlSelectFromDB_Tmp;
+	
+//make sure these tables are loaded (from unit4 original script), they are needed in the license analysis:
+ Tab_SqlSelectFromDB_Tmp:
+ //Tab_aagaccess: 
+	SQL SELECT CASE 
+           WHEN ACCE.user_id <> ' ' THEN N'U' 
+           ELSE N'R' 
+         END                                                 AS user_role_type, 
+         CASE 
+           WHEN ACCE.user_id <> ' ' THEN ACCE.user_id 
+           ELSE ACCE.role_id 
+         END                                                 AS user_role_id, 
+         CASE 
+           WHEN ACCE.user_id <> ' ' THEN USR.description 
+           ELSE ROL.description 
+         END                                                 AS user_role_name, 
+         CASE WHEN ACCE.bflag & 4 = 4 THEN N'C' ELSE N'' END + CASE WHEN 
+            ACCE.bflag & 8 = 
+         8 THEN N'R' ELSE N'' END + CASE WHEN ACCE.bflag & 2 = 2 THEN N'U' ELSE 
+            N'' END + 
+         CASE WHEN ACCE.bflag & 1 = 1 THEN N'D' ELSE N'' END AS user_permissions,
+         ACCE.menu_id,
+         ACCE.tree_type
+           FROM $(vDBConnection).dbo.aagaccess ACCE
+          LEFT JOIN $(vDBConnection).dbo.aaguser AS USR 
+                ON USR.user_id = ACCE.user_id 
+                   AND USR.status = N'N' 
+         LEFT JOIN $(vDBConnection).dbo.aagrole AS ROL 
+                ON ROL.role_id = ACCE.role_id 
+                   AND ROL.status = N'N';
+	
+
+	Store * From Tab_SqlSelectFromDB_Tmp Into [$(vLocalQVDFiles)\Agresso\system\aagaccess.qvd];
+
+	Drop Table Tab_SqlSelectFromDB_Tmp;
+ 
+   //aaguser included      LEFT JOIN aaguser AS USR            ON USR.user_id = ACCE.user_id                 AND USR.status = N'N' 
+  //aagrole already included       LEFT JOIN aagrole AS ROL          ON ROL.role_id = ACCE.role_id                   AND ROL.status = N'N' 
+                  
+//Tab_Timesheets :
+Tab_SqlSelectFromDB_Tmp:
+SQL	SELECT user_id, reg_period_id, client, status, last_update, reg_period FROM $(vDBConnection).dbo.atstseheader 
+	WHERE last_update > DATEADD(year,-2,GETDATE());
+
+	Store * From Tab_SqlSelectFromDB_Tmp Into [$(vLocalQVDFiles)\Agresso\system\atstseheader.qvd];
+
+	Drop Table Tab_SqlSelectFromDB_Tmp;
+	
+	
+	//(does not work on BW v5.6.3 or lower)  :
+//Tab_ScreenusageStandard :
+Tab_SqlSelectFromDB_Tmp:
+	SQL	SELECT '[SYSMENU]' AS 'menu table', aagviewhistory.view_id, aagviewhistory.access_id, aagviewhistory.user_id, aagviewhistory.client, aagviewhistory.description, 
+		asysmenu.module, asysmenu.licence_ref, asysmenu.tree_type, asysmenu.menu_type, asysmenu.icon_type, aagviewhistory.date_started, 
+		aagviewhistory.end_date, aagviewhistory.json_data 
+		FROM $(vDBConnection).dbo.aagviewhistory 
+		LEFT JOIN $(vDBConnection).dbo.asysmenu ON aagviewhistory.access_id = asysmenu.menu_id 
+		WHERE aagviewhistory.date_started > DATEADD(year,-2,GETDATE()) ;
+
+
+	Store * From Tab_SqlSelectFromDB_Tmp Into [$(vLocalQVDFiles)\Agresso\system\ScreenusageStandard.qvd];
+
+	Drop Table Tab_SqlSelectFromDB_Tmp;	
+	
+	
+	//(does not work on BW v5.6.3 or lower)  :
+//Tab_ScreenusageCustom:
+Tab_SqlSelectFromDB_Tmp:
+	SQL	SELECT '[AAGMENU]' AS 'menu table', aagviewhistory.view_id,aagviewhistory.access_id, aagviewhistory.user_id, aagviewhistory.client, aagviewhistory.description, aagmenu.description as menuDescription, aagmenu.module, 
+		aagmenu.licence_ref, aagmenu.tree_type, aagmenu.menu_type, aagmenu.icon_type,  aagviewhistory.date_started, aagviewhistory.end_date, aagviewhistory.json_data 
+		FROM $(vDBConnection).dbo.aagviewhistory 
+		LEFT JOIN $(vDBConnection).dbo.aagmenu ON aagviewhistory.access_id = aagmenu.menu_id 
+		WHERE aagviewhistory.date_started > DATEADD(year,-2,GETDATE()) ;
+
+
+	Store * From Tab_SqlSelectFromDB_Tmp Into [$(vLocalQVDFiles)\Agresso\system\ScreenusageCustom.qvd];
+
+	Drop Table Tab_SqlSelectFromDB_Tmp;
+
+Tab_SqlSelectFromDB_Tmp:
+//Tab_ElementType :
+	SQL	SELECT e.description, e.assembly_name, e.element_type, h.last_update, h.user_id 
+			FROM (
+					SELECT element_type, wf_group, user_id, last_update FROM $(vDBConnection).dbo.awfobjectlog 
+					WHERE log_type = 'ENT' 
+				UNION 
+					SELECT element_type, wf_group, user_id, last_update 
+					FROM $(vDBConnection).dbo.awfobjectlogfin 
+					WHERE log_type = 'ENT'
+				)
+			h, asyselemtype e 
+			WHERE h.element_type = e.element_type and h.last_update > DATEADD(year,-2,GETDATE()) ;
+
+
+	Store * From Tab_SqlSelectFromDB_Tmp Into [$(vLocalQVDFiles)\Agresso\system\elementtype.qvd];
+
+	Drop Table Tab_SqlSelectFromDB_Tmp;
+
+	Disconnect;
+End If
+*/

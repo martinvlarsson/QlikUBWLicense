@@ -1,0 +1,1904 @@
+{
+  "qInfo": {
+    "qId": "df54b5e7-c024-46b3-9a08-91e32cd07384",
+    "qType": "bookmark"
+  },
+  "qMetaDef": {
+    "title": "first",
+    "description": ""
+  },
+  "creationDate": "2022-03-28T18:13:28.596Z",
+  "sheetId": "29ad83b1-2035-45a3-bb5c-72d4d415a2ac",
+  "selectionFields": "ahsresources.status, aaguser.status, aaguserdetail.status, aagrole.status, user_permissions, ahsresources.date_from.autoCalendar.MonthsAgo, ahsresources.date_to.autoCalendar.MonthsAgo, aaguser.date_from.autoCalendar.MonthsAgo, aaguser.date_to.autoCalendar.MonthsAgo, aaguserdetail.date_from.autoCalendar.MonthsAgo, aaguserdetail.date_to.autoCalendar.MonthsAgo",
+  "qBookMark": {
+    "qStateData": [
+      {
+        "qStateName": "$",
+        "qFieldItems": [
+          {
+            "qDef": {
+              "qName": "ahsresources.status",
+              "qType": "PRESENT"
+            },
+            "qSelectInfo": {
+              "qRangeLo": "NaN",
+              "qRangeHi": "NaN",
+              "qNumberFormat": {
+                "qType": "U",
+                "qnDec": 10,
+                "qUseThou": 0
+              },
+              "qRangeInfo": [],
+              "qContinuousRangeInfo": []
+            },
+            "qValues": [
+              {
+                "qText": "N",
+                "qNumber": "NaN"
+              }
+            ],
+            "qExcludedValues": []
+          },
+          {
+            "qDef": {
+              "qName": "aaguser.status",
+              "qType": "PRESENT"
+            },
+            "qSelectInfo": {
+              "qRangeLo": "NaN",
+              "qRangeHi": "NaN",
+              "qNumberFormat": {
+                "qType": "U",
+                "qnDec": 10,
+                "qUseThou": 0
+              },
+              "qRangeInfo": [],
+              "qContinuousRangeInfo": []
+            },
+            "qValues": [
+              {
+                "qText": "N",
+                "qNumber": "NaN"
+              }
+            ],
+            "qExcludedValues": []
+          },
+          {
+            "qDef": {
+              "qName": "aaguserdetail.status",
+              "qType": "PRESENT"
+            },
+            "qSelectInfo": {
+              "qRangeLo": "NaN",
+              "qRangeHi": "NaN",
+              "qNumberFormat": {
+                "qType": "U",
+                "qnDec": 10,
+                "qUseThou": 0
+              },
+              "qRangeInfo": [],
+              "qContinuousRangeInfo": []
+            },
+            "qValues": [
+              {
+                "qText": "N",
+                "qNumber": "NaN"
+              }
+            ],
+            "qExcludedValues": []
+          },
+          {
+            "qDef": {
+              "qName": "aagrole.status",
+              "qType": "PRESENT"
+            },
+            "qSelectInfo": {
+              "qRangeLo": "NaN",
+              "qRangeHi": "NaN",
+              "qNumberFormat": {
+                "qType": "U",
+                "qnDec": 10,
+                "qUseThou": 0
+              },
+              "qRangeInfo": [],
+              "qContinuousRangeInfo": []
+            },
+            "qValues": [
+              {
+                "qText": "N",
+                "qNumber": "NaN"
+              }
+            ],
+            "qExcludedValues": []
+          },
+          {
+            "qDef": {
+              "qName": "user_permissions",
+              "qType": "PRESENT"
+            },
+            "qSelectInfo": {
+              "qRangeLo": "NaN",
+              "qRangeHi": "NaN",
+              "qNumberFormat": {
+                "qType": "U",
+                "qnDec": 10,
+                "qUseThou": 0
+              },
+              "qRangeInfo": [],
+              "qContinuousRangeInfo": []
+            },
+            "qValues": [
+              {
+                "qText": "R",
+                "qNumber": "NaN"
+              },
+              {
+                "qText": "CRUD",
+                "qNumber": "NaN"
+              },
+              {
+                "qText": "RU",
+                "qNumber": "NaN"
+              },
+              {
+                "qText": "CUD",
+                "qNumber": "NaN"
+              },
+              {
+                "qText": "CD",
+                "qNumber": "NaN"
+              },
+              {
+                "qText": "D",
+                "qNumber": "NaN"
+              },
+              {
+                "qText": "CRU",
+                "qNumber": "NaN"
+              },
+              {
+                "qText": "CRD",
+                "qNumber": "NaN"
+              },
+              {
+                "qText": "UD",
+                "qNumber": "NaN"
+              },
+              {
+                "qText": "CR",
+                "qNumber": "NaN"
+              }
+            ],
+            "qExcludedValues": []
+          },
+          {
+            "qDef": {
+              "qName": "=12*Year(Today())+Month(Today())-12*Year([ahsresources.date_from])-Month([ahsresources.date_from])",
+              "qType": "PRESENT"
+            },
+            "qSelectInfo": {
+              "qRangeLo": "NaN",
+              "qRangeHi": "NaN",
+              "qNumberFormat": {
+                "qType": "U",
+                "qnDec": 10,
+                "qUseThou": 0
+              },
+              "qRangeInfo": [],
+              "qContinuousRangeInfo": []
+            },
+            "qValues": [
+              {
+                "qIsNumeric": true,
+                "qNumber": 110
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 140
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 133
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 117
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 134
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 118
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 115
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 138
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 121
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 122
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 139
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 106
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 135
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 114
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 101
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 102
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 96
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 120
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 137
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 131
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 127
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 125
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 116
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 81
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 108
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 124
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 111
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 98
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 126
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 129
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 130
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 132
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 113
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 136
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 79
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 112
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 93
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 119
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 105
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 99
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 91
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 86
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 100
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 97
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 78
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 104
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 92
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 103
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 89
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 90
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 95
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 94
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 87
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 88
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 82
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 83
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 85
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 80
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 84
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 74
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 72
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 71
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 70
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 37
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 54
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 69
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 68
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 67
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 55
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 57
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 65
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 47
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 64
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 59
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 66
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 56
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 58
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 61
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 34
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 60
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 62
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 20
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 50
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 53
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 44
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 0
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 46
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 52
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 48
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 33
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 49
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 51
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 2
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 17
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 14
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 43
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 45
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 31
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 30
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 35
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 36
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 42
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 41
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 73
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 77
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 76
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 8
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 75
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 18
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 29
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 39
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 32
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 63
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 26
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 11
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 40
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 38
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 23
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 10
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 24
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 28
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 27
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 25
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 9
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 22
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 19
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 1
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 16
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 21
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 13
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 15
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 3
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 12
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 7
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 5
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 6
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 4
+              }
+            ],
+            "qExcludedValues": []
+          },
+          {
+            "qDef": {
+              "qName": "=12*Year(Today())+Month(Today())-12*Year([ahsresources.date_to])-Month([ahsresources.date_to])",
+              "qType": "PRESENT"
+            },
+            "qSelectInfo": {
+              "qTextSearch": "<0",
+              "qRangeLo": "NaN",
+              "qRangeHi": "NaN",
+              "qNumberFormat": {
+                "qType": "U",
+                "qnDec": 10,
+                "qUseThou": 0
+              },
+              "qRangeInfo": [],
+              "qContinuousRangeInfo": []
+            },
+            "qValues": [],
+            "qExcludedValues": []
+          },
+          {
+            "qDef": {
+              "qName": "=12*Year(Today())+Month(Today())-12*Year([aaguser.date_from])-Month([aaguser.date_from])",
+              "qType": "PRESENT"
+            },
+            "qSelectInfo": {
+              "qRangeLo": "NaN",
+              "qRangeHi": "NaN",
+              "qNumberFormat": {
+                "qType": "U",
+                "qnDec": 10,
+                "qUseThou": 0
+              },
+              "qRangeInfo": [],
+              "qContinuousRangeInfo": []
+            },
+            "qValues": [
+              {
+                "qIsNumeric": true,
+                "qNumber": 206
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 194
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 146
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 278
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 254
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 180
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 143
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 107
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 114
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 106
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 110
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 105
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 81
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 113
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 120
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 104
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 0
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 127
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 86
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 134
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 124
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 111
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 109
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 116
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 119
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 112
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 126
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 130
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 122
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 2
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 118
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 133
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 103
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 102
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 129
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 93
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 71
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 101
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 100
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 99
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 98
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 96
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 97
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 95
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 91
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 94
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 90
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 18
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 65
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 89
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 92
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 88
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 87
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 83
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 84
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 85
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 82
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 80
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 79
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 77
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 78
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 56
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 76
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 75
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 74
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 72
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 66
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 73
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 70
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 69
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 68
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 67
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 55
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 64
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 49
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 61
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 62
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 63
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 43
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 59
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 60
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 53
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 57
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 58
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 54
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 46
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 52
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 45
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 51
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 50
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 41
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 48
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 23
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 44
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 42
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 39
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 38
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 37
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 36
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 35
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 47
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 34
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 40
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 33
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 32
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 31
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 30
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 29
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 28
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 27
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 8
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 26
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 25
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 24
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 1
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 22
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 21
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 20
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 19
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 17
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 16
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 11
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 7
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 14
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 12
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 13
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 6
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 4
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 3
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 5
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 15
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 9
+              }
+            ],
+            "qExcludedValues": []
+          },
+          {
+            "qDef": {
+              "qName": "=12*Year(Today())+Month(Today())-12*Year([aaguser.date_to])-Month([aaguser.date_to])",
+              "qType": "PRESENT"
+            },
+            "qSelectInfo": {
+              "qTextSearch": "<0",
+              "qRangeLo": "NaN",
+              "qRangeHi": "NaN",
+              "qNumberFormat": {
+                "qType": "U",
+                "qnDec": 10,
+                "qUseThou": 0
+              },
+              "qRangeInfo": [],
+              "qContinuousRangeInfo": []
+            },
+            "qValues": [],
+            "qExcludedValues": []
+          },
+          {
+            "qDef": {
+              "qName": "=12*Year(Today())+Month(Today())-12*Year([aaguserdetail.date_from])-Month([aaguserdetail.date_from])",
+              "qType": "PRESENT"
+            },
+            "qSelectInfo": {
+              "qRangeLo": "NaN",
+              "qRangeHi": "NaN",
+              "qNumberFormat": {
+                "qType": "U",
+                "qnDec": 10,
+                "qUseThou": 0
+              },
+              "qRangeInfo": [],
+              "qContinuousRangeInfo": []
+            },
+            "qValues": [
+              {
+                "qIsNumeric": true,
+                "qNumber": 58
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 80
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 98
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 79
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 106
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 105
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 6
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 60
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 91
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 86
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 74
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 20
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 83
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 89
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 4
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 50
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 100
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 90
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 77
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 32
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 84
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 46
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 85
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 93
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 134
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 129
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 120
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 110
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 26
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 25
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 66
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 75
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 81
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 35
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 96
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 82
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 64
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 103
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 95
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 23
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 53
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 87
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 54
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 102
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 22
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 19
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 18
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 88
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 78
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 92
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 56
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 8
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 68
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 42
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 76
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 97
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 104
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 101
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 12
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 36
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 99
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 119
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 122
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 126
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 15
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 27
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 65
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 94
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 31
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 72
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 73
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 71
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 107
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 2
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 113
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 194
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 278
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 206
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 143
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 28
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 41
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 180
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 146
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 37
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 254
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 21
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 7
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 51
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 67
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 61
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 109
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 112
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 16
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 130
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 114
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 40
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 70
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 30
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 133
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 118
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 48
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 55
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 57
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 116
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 3
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 62
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 13
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 0
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 69
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 34
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 17
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 45
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 52
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 59
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 38
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 47
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 111
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 124
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 24
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 49
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 33
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 63
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 5
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 29
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 14
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 39
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 43
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 44
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 1
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 9
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 127
+              },
+              {
+                "qIsNumeric": true,
+                "qNumber": 11
+              }
+            ],
+            "qExcludedValues": []
+          },
+          {
+            "qDef": {
+              "qName": "=12*Year(Today())+Month(Today())-12*Year([aaguserdetail.date_to])-Month([aaguserdetail.date_to])",
+              "qType": "PRESENT"
+            },
+            "qSelectInfo": {
+              "qTextSearch": "<0",
+              "qRangeLo": "NaN",
+              "qRangeHi": "NaN",
+              "qNumberFormat": {
+                "qType": "U",
+                "qnDec": 10,
+                "qUseThou": 0
+              },
+              "qRangeInfo": [],
+              "qContinuousRangeInfo": []
+            },
+            "qValues": [],
+            "qExcludedValues": []
+          }
+        ]
+      }
+    ],
+    "qVariableItems": [],
+    "qPatches": []
+  }
+}

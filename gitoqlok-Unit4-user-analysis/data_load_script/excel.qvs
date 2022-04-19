@@ -1,0 +1,19 @@
+///$tab excel
+[ESSlicenses]:
+LOAD
+	[modulename] AS [Module Code-modulename],
+	[description] AS [ESSlicenses.description],
+	[license_ref],
+	[licensetype],
+	[nolicenses]
+ FROM [lib://AttachedFiles/licensemapping.xlsx]
+(ooxml, embedded labels, table is ESSlicenses);
+
+[systemlicensemapping]:
+LOAD
+	[License Ref] AS [licence_ref],
+	[Installed License Qty],
+	[Module Code] AS [Module Code-modulename],
+	[License Qty]
+ FROM [lib://AttachedFiles/licensemapping.xlsx]
+(ooxml, embedded labels, table is systemlicensemapping);
