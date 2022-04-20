@@ -1,0 +1,299 @@
+///$tab extract from UBW 
+//*********************************************************************************************************
+//
+// UBW DB Extraction - Data Extraction from Agresso database
+//
+// Tab comment:
+// Extract data from database
+
+//
+//*********************************************************************************************************
+Set vDBConnection = esson;//your odbc data source 
+
+	// Connection name set before, reuse
+//LIB Connect To $(vDBConnection) ;
+
+LIB CONNECT TO 'esson (esss_martinwennerholm)';
+
+Tab_ahsresources:
+SQL SELECT 
+  client + resource_id as ahsresourcekey, 
+  resource_id as user_id,
+	client as [ahsresources.client],
+    "date_from" as [ahsresources.date_from],
+    "date_started" as [ahsresources.date_started],
+    "date_to" as [ahsresources.date_to],
+    "expired_date" as [ahsresources.expired_date],
+    "first_name" as [ahsresources.first_name],
+
+    "main_res_id" as [ahsresources.main_res_id],
+
+    name as [ahsresources.name],
+    "social_sec" as [ahsresources.social_sec],
+    status  as [ahsresources.status]
+FROM $(vDBConnection).dbo.ahsresources;
+
+Tag fields [ahsresources.date_from], [ahsresources.date_to],[ahsresources.date_started],[ahsresources.expired_date] with [$date];
+
+//--------------------------------------------------------------------------------------------------------------
+//all use/license related data
+
+// Read acrlicense
+Tab_blob_Image:
+	SQL	SELECT  blob_image
+	FROM $(vDBConnection).dbo.acrlicense;
+
+
+// Read asyssetup
+Tab_asyssetup:
+	
+SQL	SELECT 'Query Extract Date' AS name, CONVERT(VARCHAR(100),GETDATE(),103) AS info UNION SELECT 'Database' AS name, @@VERSION AS version UNION SELECT 'Business World', text1 + ' - ' + text2 
+	FROM $(vDBConnection).dbo.asyssetup WHERE name = 'BASE_VERSION';
+
+	
+// Read experiencepacks
+Tab_experiencepacks:
+	SQL	SELECT p.*, v.version_code, v.compatibility_level, v.version_name, v.description as [experiencepacks.description]
+	FROM $(vDBConnection).dbo.asysproduct p, $(vDBConnection).dbo.asysproductversion v WHERE v.product_id = p.product_id;
+
+// Read Tab_SessionHist
+Tab_aagsesshist:
+SQL select
+	[user_id] AS [aagsesshist.user_id],
+	[client],
+	[login_time],
+	[logout_time],
+	[status] AS [aagsesshist.status],
+	[system_name]
+ FROM  $(vDBConnection).dbo.aagsesshist WHERE login_time > DATEADD(year,-2,GETDATE()); 
+
+//Tab_Users: 
+Tab_aaguser:
+SQL
+	SELECT [user_id],
+	[user_name],
+	[description] AS [aaguser.description],
+	[language],
+	[status] AS [aaguser.status],
+	[date_from] AS [aaguser.date_from],
+	[date_to] AS [aaguser.date_to],
+	[time_from],
+	[time_to],
+	[last_update] AS [aaguser.last_update] FROM $(vDBConnection).dbo.aaguser ;
+	
+    Tag fields [aaguser.date_to],[aaguser.date_from],[aaguser.last_update] with [$date];
+
+//Tab_UserDetails:
+Tab_aaguserdetail:
+	SQL SELECT [user_id],
+	[role_id] AS [role_id-user_role_id],
+	[client] AS [aaguserdetail.client],
+	[status] AS [aaguserdetail.status],
+	[date_from] AS [aaguserdetail.date_from],
+	[date_to] AS [aaguserdetail.date_to],
+	[last_update] AS [aaguserdetail.last_update] FROM $(vDBConnection).dbo.aaguserdetail ;
+    
+	Tag fields [aaguserdetail.date_to],[aaguserdetail.date_from],[aaguserdetail.last_update] with [$date];
+//Tab_Roles: 
+	Tab_aagrole:
+    
+	SQL SELECT [role_id] AS [role_id-user_role_id],
+	[description] as [role.description],
+	[status] AS [aagrole.status],
+	[date_from] AS [aagrole.date_from],
+	[date_to] AS [aagrole.date_to],
+	[last_update] as [aagrole.last_update] from $(vDBConnection).dbo.aagrole ;
+    
+Tag fields [aagrole.date_to],[aagrole.date_from],[aagrole.last_update] with [$date];
+
+//Tab_RoleDetails:
+Tab_aagroledetail: 
+ 
+SQL	select [role_id] AS [role_id-user_role_id],
+	[client] AS [aagroledetail.client],
+	[last_update] AS [aagroledetail.last_update] from $(vDBConnection).dbo.aagroledetail ;
+	
+
+//raw data, build tree from this, using muni_id=parent_menu_id (and tree_sequence+1=sequence_id, if matching unit4 format)
+Tab_treemenustructureraw:
+Hierarchy (menu_id, parent_menu_id, title_en, ParentName, title_en, PathName, '/', Depth) 
+LOAD 	tree_type, 
+         menu_id, 
+	 	func_name, 	
+         parent_menu_id, 
+         menu_type, 
+         sequence_no, 
+         licence_ref, 
+         icon_type, 
+         title_no, 
+         title_en;
+SQL SELECT MEN.tree_type, 
+         MEN.menu_id, 
+	 MEN.func_name, 	
+         MEN.parent_menu_id, 
+         MEN.menu_type, 
+         MEN.sequence_no, 
+         MEN.licence_ref, 
+         MEN.icon_type, 
+         MEN.title_no, 
+         MEN.title_en 
+  FROM   (SELECT MEN.tree_type, 
+                 MEN.menu_id,
+		 MEN.func_name, 
+                 MEN.parent_menu_id, 
+                 MEN.menu_type, 
+                 MEN.sequence_no, 
+                 CASE 
+                   WHEN MEN.menu_type IN ( 5, 6 ) THEN '' 
+                   ELSE MEN.licence_ref 
+                 END                                                AS 
+                 licence_ref 
+                 , 
+                 MEN.icon_type, 
+                 MEN.title_no, 
+                 CASE WHEN MEN.menu_type = 5 THEN 'TAB-' WHEN MEN.menu_type = 6 
+                 THEN 
+                         'TOOL-' 
+                 ELSE '' END 
+                 + Isnull(AAGTEN.title, Isnull(SYSTEN.title, N'?')) AS title_en 
+          FROM   $(vDBConnection).dbo.asysmenu MEN 
+                 LEFT OUTER JOIN $(vDBConnection).dbo.asystitlesen SYSTEN 
+                              ON MEN.title_no = SYSTEN.title_no 
+                 LEFT OUTER JOIN $(vDBConnection).dbo.aagtitles AAGTEN 
+                              ON MEN.title_no = AAGTEN.title_no 
+                                 AND AAGTEN.language = N'EN' 
+          UNION 
+          SELECT MEN.tree_type, 
+                 MEN.menu_id,
+		 MEN.func_name, 
+                 MEN.parent_menu_id, 
+                 MEN.menu_type, 
+                 MEN.sequence_no, 
+                 CASE 
+                   WHEN MEN.menu_type IN ( 5, 6 ) THEN '' 
+                   ELSE MEN.licence_ref 
+                 END                            AS licence_ref, 
+                 MEN.icon_type, 
+                 0, 
+                 CASE WHEN MEN.menu_type = 5 THEN 'TAB-' WHEN MEN.menu_type = 6 
+                 THEN 
+                 'TOOL-'
+                 ELSE '' END + MEN.description AS title_en 
+          FROM    $(vDBConnection).dbo.aagmenu MEN 
+          WHERE  MEN.user_id = '*') AS MEN ;
+	
+//make sure these tables are loaded (from unit4 original script), they are needed in the license analysis:
+ Tab_aagaccess:
+ //Tab_aagaccess: 
+	SQL SELECT CASE 
+           WHEN ACCE.user_id <> ' ' THEN N'U' 
+           ELSE N'R' 
+         END                                                 AS user_role_type, 
+         CASE 
+           WHEN ACCE.user_id <> ' ' THEN ACCE.user_id 
+           ELSE ACCE.role_id 
+         END                                                 AS [role_id-user_role_id], 
+         CASE 
+           WHEN ACCE.user_id <> ' ' THEN USR.description 
+           ELSE ROL.description 
+         END                                                 AS user_role_name, 
+         CASE WHEN ACCE.bflag & 4 = 4 THEN N'C' ELSE N'' END + CASE WHEN 
+            ACCE.bflag & 8 = 
+         8 THEN N'R' ELSE N'' END + CASE WHEN ACCE.bflag & 2 = 2 THEN N'U' ELSE 
+            N'' END + 
+         CASE WHEN ACCE.bflag & 1 = 1 THEN N'D' ELSE N'' END AS user_permissions,
+         ACCE.menu_id,
+         ACCE.tree_type as [aagaccess.tree_type]
+           FROM $(vDBConnection).dbo.aagaccess ACCE
+          LEFT JOIN $(vDBConnection).dbo.aaguser AS USR 
+                ON USR.user_id = ACCE.user_id 
+                   AND USR.status = N'N' 
+         LEFT JOIN $(vDBConnection).dbo.aagrole AS ROL 
+                ON ROL.role_id = ACCE.role_id 
+                   AND ROL.status = N'N';
+	
+
+/* INNER JOIN aagaccess AS ACCE 
+                 ON ACCE.tree_type = TREES.tree_type 
+                    AND ACCE.menu_id = TREES.menu_id 
+                    AND ( ( ACCE.user_id IS NOT NULL 
+                            AND ACCE.user_id <> N'' ) 
+                           OR ( ACCE.role_id IS NOT NULL 
+                                AND ACCE.role_id <> N'' ) ) 
+                    AND ACCE.bflag <> 0 */
+   //aaguser included      LEFT JOIN aaguser AS USR            ON USR.user_id = ACCE.user_id                 AND USR.status = N'N' 
+  //aagrole already included       LEFT JOIN aagrole AS ROL          ON ROL.role_id = ACCE.role_id                   AND ROL.status = N'N' 
+                  
+//Tab_Timesheets :
+Tab_atstseheader:
+SQL	SELECT [user_id],
+	[reg_period_id],
+	[client] AS [atstseheader.client],
+	[status] AS [atstseheader.status],
+	[last_update] AS [atstseheader.last_update],
+	[reg_period] FROM $(vDBConnection).dbo.atstseheader 
+	WHERE last_update > DATEADD(year,-2,GETDATE());
+
+	
+	
+	//(does not work on BW v5.6.3 or lower)  :
+//Tab_ScreenusageStandard :
+Tab_Screenusage:
+	SQL	SELECT '[SYSMENU]' AS 'menu table', 
+	[view_id],
+	[access_id],
+	aagviewhistory.user_id as [user_id],
+	aagviewhistory.client as [ScreenusageStandard.client],
+	aagviewhistory.description AS [ScreenusageStandard.description],
+	[module],
+	[licence_ref] as [ScreenusageStandard.licence_ref],
+	[tree_type] AS [ScreenusageStandard.tree_type],
+	[menu_type] AS [ScreenusageStandard.menu_type],
+	[icon_type] AS [ScreenusageStandard.icon_type],
+	[date_started] AS [ScreenusageStandard.date_started],
+	[end_date] AS [ScreenusageStandard.end_date],
+	[json_data]
+		FROM $(vDBConnection).dbo.aagviewhistory 
+		LEFT JOIN $(vDBConnection).dbo.asysmenu ON aagviewhistory.access_id = asysmenu.menu_id 
+		WHERE aagviewhistory.date_started > DATEADD(year,-2,GETDATE()) 
+
+
+	
+	//(does not work on BW v5.6.3 or lower)  :
+//Tab_ScreenusageCustom:
+//Tab_ScreenusageCustom:
+	union	SELECT '[AAGMENU]' AS 'menu table',
+	[view_id],
+	[access_id],
+	aagviewhistory.user_id as [user_id],
+	aagviewhistory.client as[ScreenusageStandard.client],
+	aagviewhistory.description AS [ScreenusageStandard.description],
+	[module],
+	[licence_ref] as [ScreenusageStandard.licence_ref] ,
+	[tree_type] AS [ScreenusageStandard.tree_type],
+	[menu_type] AS [ScreenusageStandard.menu_type],
+	[icon_type] AS [ScreenusageStandard.icon_type],
+	[date_started] AS [ScreenusageStandard.date_started],
+	[end_date] AS [ScreenusageStandard.end_date],
+	[json_data]		FROM $(vDBConnection).dbo.aagviewhistory 
+		LEFT JOIN $(vDBConnection).dbo.aagmenu ON aagviewhistory.access_id = aagmenu.menu_id 
+		WHERE aagviewhistory.date_started > DATEADD(year,-2,GETDATE()) ;
+
+Tag fields [[ScreenusageStandard.end_date],[ScreenusageStandard.date_started] with [$date];
+
+Tab_awfobjectlog:
+//Tab_ElementType :
+	SQL	SELECT e.description, e.assembly_name, e.element_type, h.last_update as [objlog.last_update], h.user_id 
+			FROM (
+					SELECT element_type, wf_group, user_id, last_update FROM $(vDBConnection).dbo.awfobjectlog 
+					WHERE log_type = 'ENT' 
+				UNION 
+					SELECT element_type, wf_group, user_id, last_update 
+					FROM $(vDBConnection).dbo.awfobjectlogfin 
+					WHERE log_type = 'ENT'
+				)
+			h, asyselemtype e 
+			WHERE h.element_type = e.element_type and h.last_update > DATEADD(year,-2,GETDATE()) ;
+
+
+	Disconnect;

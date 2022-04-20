@@ -1,0 +1,14 @@
+{
+  "qInfo": {
+    "qId": "d952bcde-f004-4eec-98ba-c9ebc1a83109",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "name",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "Tab_Resource (Extract)"
+}

@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "6b2fdba8-2d5d-47ec-af6a-78644cb68726",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vDBConnection",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "esson",
+  "qIsScriptCreated": true
+}
